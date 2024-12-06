@@ -1,10 +1,36 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityHub.WPF", "ProductivityHub.WPF\ProductivityHub.WPF.csproj", "{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductivityHub.WPF.Modules", "ProductivityHub.WPF.Modules", "{6AF63657-46C7-4978-95EB-694DA3678C3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityHub.WPF.Modules.TaskManager", "ProductivityHub.WPF.Modules.TaskManager\ProductivityHub.WPF.Modules.TaskManager.csproj", "{DBF1E288-A2EF-4FF1-BD8D-0E4FE12F563C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF1E288-A2EF-4FF1-BD8D-0E4FE12F563C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF1E288-A2EF-4FF1-BD8D-0E4FE12F563C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF1E288-A2EF-4FF1-BD8D-0E4FE12F563C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF1E288-A2EF-4FF1-BD8D-0E4FE12F563C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DBF1E288-A2EF-4FF1-BD8D-0E4FE12F563C} = {6AF63657-46C7-4978-95EB-694DA3678C3C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF07FDEB-D7F6-4046-953C-E4C5B81B80F1}
 	EndGlobalSection
 EndGlobal
