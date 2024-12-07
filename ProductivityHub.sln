@@ -5,9 +5,11 @@ VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityHub.WPF", "ProductivityHub.WPF\ProductivityHub.WPF.csproj", "{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductivityHub.WPF.Modules", "ProductivityHub.WPF.Modules", "{6AF63657-46C7-4978-95EB-694DA3678C3C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF.Modules", "WPF.Modules", "{6AF63657-46C7-4978-95EB-694DA3678C3C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityHub.WPF.Modules.TaskManager", "ProductivityHub.WPF.Modules.TaskManager\ProductivityHub.WPF.Modules.TaskManager.csproj", "{DBF1E288-A2EF-4FF1-BD8D-0E4FE12F563C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityHub.Shared", "ProductivityHub.Shared\ProductivityHub.Shared.csproj", "{633E29BF-1859-4407-9CB4-C9E2BDD5652B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{DBF1E288-A2EF-4FF1-BD8D-0E4FE12F563C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBF1E288-A2EF-4FF1-BD8D-0E4FE12F563C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBF1E288-A2EF-4FF1-BD8D-0E4FE12F563C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{633E29BF-1859-4407-9CB4-C9E2BDD5652B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633E29BF-1859-4407-9CB4-C9E2BDD5652B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633E29BF-1859-4407-9CB4-C9E2BDD5652B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633E29BF-1859-4407-9CB4-C9E2BDD5652B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
