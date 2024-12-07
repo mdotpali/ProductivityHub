@@ -1,0 +1,98 @@
+﻿ProductivityHub
+│
+├── ProductivityHub.Domain
+│   ├── Entities
+│   │   ├── Task.cs
+│   │   ├── Goal.cs
+│   │   ├── CalendarEvent.cs
+│   │   └── User.cs
+│   ├── Interfaces
+│   │   ├── ITaskRepository.cs
+│   │   ├── IGoalRepository.cs
+│   │   ├── ICalendarEventRepository.cs
+│   │   └── IUserRepository.cs
+│   └── ...
+│
+├── ProductivityHub.Application
+│   ├── Services
+│   │   ├── TaskService.cs
+│   │   ├── GoalService.cs
+│   │   ├── CalendarService.cs
+│   │   └── UserService.cs
+│   ├── DTOs
+│   │   ├── TaskDto.cs
+│   │   ├── GoalDto.cs
+│   │   ├── CalendarEventDto.cs
+│   │   └── UserDto.cs
+│   ├── Interfaces
+│   │   ├── ITaskService.cs
+│   │   ├── IGoalService.cs
+│   │   ├── ICalendarService.cs
+│   │   └── IUserService.cs
+│   ├── Mappers
+│   │   ├── TaskMapper.cs
+│   │   └── UserMapper.cs
+│   ├── Commands
+│   │   ├── CreateTaskCommand.cs
+│   │   └── LoginUserCommand.cs
+│   ├── Queries
+│   │   ├── GetTasksQuery.cs
+│   │   └── GetUserQuery.cs
+│   ├── Validators
+│   │   ├── TaskValidator.cs
+│   │   └── UserValidator.cs
+│   └── ...
+│
+├── ProductivityHub.Infrastructure
+│   ├── Repositories
+│   │   ├── TaskRepository.cs
+│   │   ├── GoalRepository.cs
+│   │   ├── CalendarEventRepository.cs
+│   │   └── UserRepository.cs
+│   ├── AppDbContext.cs
+│   └── ...
+│
+├── ProductivityHub.WPF
+│   ├── Views
+│   │   ├── MainWindow.xaml
+│   │   └── ...
+│   ├── ViewModels
+│   │   ├── MainWindowViewModel.cs
+│   └── App.xaml.cs
+│
+├── WPF.Modules
+│   ├── TaskModule
+│   │   ├── TaskModule.csproj
+│   │   ├── Views
+│   │   │   ├── TaskView.xaml
+│   │   ├── ViewModels
+│   │   │   ├── TaskViewModel.cs
+│   │   ├── TaskModule.cs
+│   │   └── ...
+│   ├── GoalModule
+│   │   ├── GoalModule.csproj
+│   │   ├── Views
+│   │   │   ├── GoalView.xaml
+│   │   ├── ViewModels
+│   │   │   ├── GoalViewModel.cs
+│   │   ├── GoalModule.cs
+│   │   └── ...
+│   ├── CalendarModule
+│   │   ├── CalendarModule.csproj
+│   │   ├── Views
+│   │   │   ├── CalendarView.xaml
+│   │   ├── ViewModels
+│   │   │   ├── CalendarViewModel.cs
+│   │   ├── CalendarModule.cs
+│   │   └── ...
+│   └── UserModule
+│       ├── UserModule.csproj
+│       ├── Views
+│       │   ├── LoginView.xaml
+│       │   ├── UserProfileView.xaml
+│       ├── ViewModels
+│       │   ├── LoginViewModel.cs
+│       │   ├── UserProfileViewModel.cs
+│       ├── UserModule.cs
+│       └── ...
+
