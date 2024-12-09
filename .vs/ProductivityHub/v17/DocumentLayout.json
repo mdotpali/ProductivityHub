@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\DATA\\GIT\\ProductivityHub\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5FC1F78-2F6E-4152-A081-E1E8A2C999EA}|ProductivityHub.Domain\\ProductivityHub.Domain.csproj|c:\\data\\git\\productivityhub\\productivityhub.domain\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5FC1F78-2F6E-4152-A081-E1E8A2C999EA}|ProductivityHub.Domain\\ProductivityHub.Domain.csproj|solutionrelative:productivityhub.domain\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf\\productivityhub.wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|solutionrelative:productivityhub.wpf\\productivityhub.wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.Domain\\Entities\\Task.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.Domain\\Entities\\Task.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.Domain\\Entities\\Task.cs",
+              "RelativeToolTip": "ProductivityHub.Domain\\Entities\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T16:48:37.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductivityHub.WPF",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\ProductivityHub.WPF.csproj",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF\\ProductivityHub.WPF.csproj",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\ProductivityHub.WPF.csproj",
+              "RelativeToolTip": "ProductivityHub.WPF\\ProductivityHub.WPF.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-09T16:12:10.95Z",
+              "EditorCaption": ""
             }
           ]
         }
