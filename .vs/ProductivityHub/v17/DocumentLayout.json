@@ -1,14 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\DATA\\GIT\\ProductivityHub\\",
+  "WorkspaceRootPath": "D:\\0-Git\\ProductivityHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5FC1F78-2F6E-4152-A081-E1E8A2C999EA}|ProductivityHub.Domain\\ProductivityHub.Domain.csproj|c:\\data\\git\\productivityhub\\productivityhub.domain\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5FC1F78-2F6E-4152-A081-E1E8A2C999EA}|ProductivityHub.Domain\\ProductivityHub.Domain.csproj|solutionrelative:productivityhub.domain\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E78B700-5E53-4A71-BA23-74663655DD92}|ProductivityHub.Infrastructure\\ProductivityHub.Infrastructure.csproj|d:\\0-git\\productivityhub\\productivityhub.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E78B700-5E53-4A71-BA23-74663655DD92}|ProductivityHub.Infrastructure\\ProductivityHub.Infrastructure.csproj|solutionrelative:productivityhub.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf\\productivityhub.wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{E5FC1F78-2F6E-4152-A081-E1E8A2C999EA}|ProductivityHub.Domain\\ProductivityHub.Domain.csproj|d:\\0-git\\productivityhub\\productivityhub.domain\\entities\\taskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5FC1F78-2F6E-4152-A081-E1E8A2C999EA}|ProductivityHub.Domain\\ProductivityHub.Domain.csproj|solutionrelative:productivityhub.domain\\entities\\taskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D14ECA5-04CC-4E51-BB05-C56BD1719522}|Design{5D14ECA5-04CC-4E51-BB05-C56BD1719522}|D:\\0-Git\\ProductivityHub\\Design\\ClassCharts.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5D14ECA5-04CC-4E51-BB05-C56BD1719522}|Design{5D14ECA5-04CC-4E51-BB05-C56BD1719522}|solutionrelative:Design\\ClassCharts.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf\\productivityhub.wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|solutionrelative:productivityhub.wpf\\productivityhub.wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5FC1F78-2F6E-4152-A081-E1E8A2C999EA}|ProductivityHub.Domain\\ProductivityHub.Domain.csproj|d:\\0-git\\productivityhub\\productivityhub.domain\\entities\\formtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5FC1F78-2F6E-4152-A081-E1E8A2C999EA}|ProductivityHub.Domain\\ProductivityHub.Domain.csproj|solutionrelative:productivityhub.domain\\entities\\formtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5FC1F78-2F6E-4152-A081-E1E8A2C999EA}|ProductivityHub.Domain\\ProductivityHub.Domain.csproj|d:\\0-git\\productivityhub\\productivityhub.domain\\entities\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5FC1F78-2F6E-4152-A081-E1E8A2C999EA}|ProductivityHub.Domain\\ProductivityHub.Domain.csproj|solutionrelative:productivityhub.domain\\entities\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,33 +38,97 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Task.cs",
-              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.Domain\\Entities\\Task.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.Domain\\Entities\\Task.cs",
-              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.Domain\\Entities\\Task.cs",
-              "RelativeToolTip": "ProductivityHub.Domain\\Entities\\Task.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.Infrastructure\\Class1.cs",
+              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "ProductivityHub.Infrastructure\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T21:16:57.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClassCharts.txt",
+              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\Design\\ClassCharts.txt",
+              "RelativeDocumentMoniker": "Design\\ClassCharts.txt",
+              "ToolTip": "D:\\0-Git\\ProductivityHub\\Design\\ClassCharts.txt",
+              "RelativeToolTip": "Design\\ClassCharts.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-09T20:42:45.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormType.cs",
+              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Domain\\Entities\\FormType.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.Domain\\Entities\\FormType.cs",
+              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Domain\\Entities\\FormType.cs",
+              "RelativeToolTip": "ProductivityHub.Domain\\Entities\\FormType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T20:20:25.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Status.cs",
+              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Domain\\Entities\\Status.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.Domain\\Entities\\Status.cs",
+              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Domain\\Entities\\Status.cs",
+              "RelativeToolTip": "ProductivityHub.Domain\\Entities\\Status.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T20:19:31.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskEntity.cs",
+              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Domain\\Entities\\TaskEntity.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.Domain\\Entities\\TaskEntity.cs",
+              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Domain\\Entities\\TaskEntity.cs",
+              "RelativeToolTip": "ProductivityHub.Domain\\Entities\\TaskEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T16:48:37.134Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductivityHub.WPF",
-              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\ProductivityHub.WPF.csproj",
+              "DocumentIndex": 3,
+              "Title": "ProductivityHub.WPF.csproj",
+              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\ProductivityHub.WPF.csproj",
               "RelativeDocumentMoniker": "ProductivityHub.WPF\\ProductivityHub.WPF.csproj",
-              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\ProductivityHub.WPF.csproj",
+              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\ProductivityHub.WPF.csproj",
               "RelativeToolTip": "ProductivityHub.WPF\\ProductivityHub.WPF.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-12-09T16:12:10.95Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

@@ -3,20 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityHub.WPF", "ProductivityHub.WPF\ProductivityHub.WPF.csproj", "{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityHub.WPF", "ProductivityHub.WPF\ProductivityHub.WPF.csproj", "{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design", "Design", "{5D14ECA5-04CC-4E51-BB05-C56BD1719522}"
 	ProjectSection(SolutionItems) = preProject
 		Design\ClassCharts.txt = Design\ClassCharts.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityHub.Domain", "ProductivityHub.Domain\ProductivityHub.Domain.csproj", "{E5FC1F78-2F6E-4152-A081-E1E8A2C999EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityHub.Domain", "ProductivityHub.Domain\ProductivityHub.Domain.csproj", "{E5FC1F78-2F6E-4152-A081-E1E8A2C999EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityHub.Application", "ProductivityHub.Application\ProductivityHub.Application.csproj", "{569EC9E3-AE3B-42F1-A22C-6D2E91841023}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityHub.Application", "ProductivityHub.Application\ProductivityHub.Application.csproj", "{569EC9E3-AE3B-42F1-A22C-6D2E91841023}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityHub.WPF.Modules.TaskModule", "ProductivityHub.WPF.Modules.TaskModule\ProductivityHub.WPF.Modules.TaskModule.csproj", "{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityHub.WPF.Modules.TaskModule", "ProductivityHub.WPF.Modules.TaskModule\ProductivityHub.WPF.Modules.TaskModule.csproj", "{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityHub.WPF.Modules.Calendar", "ProductivityHub.WPF.Modules.Calendar\ProductivityHub.WPF.Modules.Calendar.csproj", "{4C5C0481-63FC-4966-B024-3007C5A0257B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityHub.WPF.Modules.Calendar", "ProductivityHub.WPF.Modules.Calendar\ProductivityHub.WPF.Modules.Calendar.csproj", "{4C5C0481-63FC-4966-B024-3007C5A0257B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityHub.Infrastructure", "ProductivityHub.Infrastructure\ProductivityHub.Infrastructure.csproj", "{3E78B700-5E53-4A71-BA23-74663655DD92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +46,10 @@ Global
 		{4C5C0481-63FC-4966-B024-3007C5A0257B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C5C0481-63FC-4966-B024-3007C5A0257B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C5C0481-63FC-4966-B024-3007C5A0257B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E78B700-5E53-4A71-BA23-74663655DD92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E78B700-5E53-4A71-BA23-74663655DD92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E78B700-5E53-4A71-BA23-74663655DD92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E78B700-5E53-4A71-BA23-74663655DD92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,4 +6,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProductivityHub.Domain\ProductivityHub.Domain.csproj" />
+    <ProjectReference Include="..\ProductivityHub.Infrastructure\ProductivityHub.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
