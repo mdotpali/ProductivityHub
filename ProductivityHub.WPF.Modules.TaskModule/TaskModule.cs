@@ -5,7 +5,7 @@ using Prism.Regions;
 
 namespace ProductivityHub.WPF.Modules.TaskModule
 {
-    public class TaskModuleModule: IModule
+    public class TaskModule: IModule
     {
         public void OnInitialized(IContainerProvider containerProvider)
         {
