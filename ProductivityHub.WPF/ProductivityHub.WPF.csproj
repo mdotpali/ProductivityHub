@@ -8,6 +8,7 @@
 	<Nullable>disable</Nullable>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.0" />
     <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.12.2069">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -16,5 +17,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ProductivityHub.Application\ProductivityHub.Application.csproj" />
+    <ProjectReference Include="..\ProductivityHub.WPF.Modules.Calendar\ProductivityHub.WPF.Modules.Calendar.csproj" />
+    <ProjectReference Include="..\ProductivityHub.WPF.Modules.TaskModule\ProductivityHub.WPF.Modules.TaskModule.csproj" />
   </ItemGroup>
 </Project>

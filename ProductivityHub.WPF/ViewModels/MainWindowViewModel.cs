@@ -10,7 +10,7 @@ namespace ProductivityHub.WPF.ViewModels
     public class MainWindowViewModel : BindableBase
     {
         private string _title = "Prism Application";
-        private readonly ITaskService _taskService;
+        //private readonly ITaskService _taskService;
 
         public string Title
         {
@@ -18,27 +18,30 @@ namespace ProductivityHub.WPF.ViewModels
             set { SetProperty(ref _title, value); }
         }
 
-        public MainWindowViewModel(ITaskService taskService)
+        public MainWindowViewModel()
         {
-            _taskService = taskService;
+            //_taskService = taskService;
         }
 
-        private DelegateCommand _taskTestCommand;
-        public DelegateCommand TaskTestCommand =>
-            _taskTestCommand ?? (_taskTestCommand = new DelegateCommand(ExecuteTaskTestCommand));
+        //private DelegateCommand _taskTestCommand;
+        //public DelegateCommand TaskTestCommand =>
+        //    _taskTestCommand ?? (_taskTestCommand = new DelegateCommand(ExecuteTaskTestCommand));
 
-        void ExecuteTaskTestCommand()
-        {
-            var taskDto = new TaskDto
-            {
-                Title = "Example Task",
-                Description = "Example Description",
-                DueDate = DateTime.Now,
-                PlanedDate = DateTime.Now,
-                TaskStatusId = 1,
-                TaskStatusName = "Started"
-            };
-            _taskService.AddTaskAsync(taskDto);
-        }
+        //void ExecuteTaskTestCommand()
+        //{
+        //    var taskDto = new TaskDto
+        //    {
+        //        Title = "Example Task",
+        //        Description = "Example Description",
+        //        DueDate = DateTime.Now,
+        //        PlanedDate = DateTime.Now,
+        //        TaskStatusId = 1,
+        //        TaskStatusName = "Started",
+        //        TaskTypeName = "Project Task",
+        //        TypeId = 1,
+        //        Id = new Guid()
+        //    };
+        //    _taskService.AddTaskAsync(taskDto);
+        //}
     }
 }

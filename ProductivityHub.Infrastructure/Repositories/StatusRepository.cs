@@ -9,23 +9,22 @@ using System.Threading.Tasks;
 
 namespace ProductivityHub.Infrastructure.Repositories
 {
-    public class FormTypeRepository :IFormTypeRepository
+    public class StatusRepository : IStatusRepository
     {
         private readonly AppDbContext _dbContext;
 
-        public FormTypeRepository(AppDbContext dbContext)
+        public StatusRepository(AppDbContext dbContext)
         {
             _dbContext = dbContext;
         }
-
-        public async Task AddFormType(FormType formType)
+        public async Task AddStatus(Status status)
         {
-            await _dbContext.ForTypes.AddAsync(formType);
+            await _dbContext.Statuses.AddAsync(status);
         }
 
-        public async Task<FormType> GetFormTypeById(int id)
+        public async Task<Status> GetStatusById(int id)
         {
-            return await _dbContext.ForTypes.FirstOrDefaultAsync(t => t.Id == id);
+            return await _dbContext.Statuses.FirstOrDefaultAsync(s => s.Id == id);
         }
     }
 }

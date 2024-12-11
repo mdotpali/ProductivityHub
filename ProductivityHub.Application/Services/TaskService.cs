@@ -13,11 +13,13 @@ namespace ProductivityHub.Application.Services
     {
         private readonly ITaskRepository _taskRepository;
         private readonly IFormTypeRepository _formTypeRepository;
+        private readonly IStatusRepository _statusRepository;
 
-        public TaskService(ITaskRepository taskRepository, IFormTypeRepository formTypeRepository)
+        public TaskService(ITaskRepository taskRepository, IFormTypeRepository formTypeRepository, IStatusRepository statusRepository)
         {
             _taskRepository = taskRepository;
             _formTypeRepository = formTypeRepository;
+            _statusRepository = statusRepository;
         }
         public async Task AddTaskAsync(TaskDto taskDto)
         {
@@ -27,41 +29,55 @@ namespace ProductivityHub.Application.Services
             if (formType == null)
             {
                 formType = new FormType { Id = taskDto.TypeId, Name = taskDto.TaskTypeName };
-                 await _formTypeRepository.CreateFormType(formType);
+                await _formTypeRepository.AddFormType(formType);
             }
 
-            var task = new TaskEntity
+            Status taskStatus = await _statusRepository.GetStatusById(taskDto.TaskStatusId);
+            if (taskStatus == null)
+            {
+                taskStatus = new Status { Id = taskDto.TaskStatusId, Name = taskDto.TaskStatusName };
+                await _statusRepository.AddStatus(taskStatus);
+            }
+
+             var task = new TaskEntity
             {
                 Title = taskDto.Title,
                 Description = taskDto.Description,
                 DueDate = taskDto.DueDate,
                 TaskStatusId = taskDto.TaskStatusId,
+                TaskStatus = taskStatus,
                 TypeId = taskDto.TypeId,
                 TaskType = formType,
                 PlanedDate = taskDto.PlanedDate,
+                Id = taskDto.Id
             };
 
             await _taskRepository.Add(task);
         }
 
-        //public Task DeleteTaskAsync(TaskEntity id)
-        //{
-        //    throw new NotImplementedException();
-        //}
-
-        public Task<List<TaskEntity>> GetAllTasksAsync()
+        public async Task DeleteTaskAsync(TaskEntity id)
         {
-            throw new NotImplementedException();
+            await _taskRepository.Delete(id.Id);
         }
 
-        //public Task<TaskEntity> GetTaskByIdAsync(int id)
-        //{
-        //    throw new NotImplementedException();
-        //}
+        public async Task<List<TaskEntity>> GetAllTasksAsync()
+        {
+            List<TaskEntity> allTasksList = new List<TaskEntity>();
 
-        //public Task UpdateTaskAsync(TaskEntity task)
-        //{
-        //    throw new NotImplementedException();
-        //}
+            var tasks = await _taskRepository.GetAll();
+            allTasksList = tasks.ToList();
+
+            return allTasksList;
+        }
+
+        public async Task<TaskEntity> GetTaskByIdAsync(Guid id)
+        {
+           return await _taskRepository.GetById(id);
+        }
+
+        public async Task UpdateTaskAsync(TaskEntity task)
+        {
+            await _taskRepository.Update(task);
+        }
     }
 }

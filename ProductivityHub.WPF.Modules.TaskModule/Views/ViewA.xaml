@@ -8,9 +8,13 @@
              d:DesignHeight="300" d:DesignWidth="300"
              xmlns:prism="http://prismlibrary.com/"
              prism:ViewModelLocator.AutoWireViewModel="True" >
-    <Grid>
+    <Grid >
         <TextBlock Text="{Binding Message}"
                        HorizontalAlignment="Center"
                        VerticalAlignment="Center" />
+        <Button Content="Click me"
+                Command="{Binding TaskTestCommand}"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Bottom" />
     </Grid>
 </UserControl>

@@ -8,9 +8,9 @@ namespace ProductivityHub.Application.Interfaces
     public interface ITaskService
     {
         public Task<List<TaskEntity>> GetAllTasksAsync();
-        //Task<TaskEntity> GetTaskByIdAsync(int id);
+        Task<TaskEntity> GetTaskByIdAsync(Guid id);
         public Task AddTaskAsync(TaskDto task);
-        //Task UpdateTaskAsync(TaskEntity task);
-        //Task DeleteTaskAsync(TaskEntity id);
+        Task UpdateTaskAsync(TaskEntity task);
+        Task DeleteTaskAsync(TaskEntity task);
     }
 }

@@ -10,5 +10,6 @@ namespace ProductivityHub.Domain.Interfaces
     public interface IStatusRepository
     {
         Task<Status> GetStatusById(int id);
+        Task AddStatus(Status status);
     }
 }

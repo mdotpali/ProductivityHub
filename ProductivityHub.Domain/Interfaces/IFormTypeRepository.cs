@@ -10,6 +10,6 @@ namespace ProductivityHub.Domain.Interfaces
     public interface IFormTypeRepository
     {
         Task<FormType> GetFormTypeById(int id);
-        Task CreateFormType(FormType formType);
+        Task AddFormType(FormType formType);
     }
 }

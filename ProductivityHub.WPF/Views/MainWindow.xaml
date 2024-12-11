@@ -6,6 +6,6 @@
         Title="{Binding Title}" Height="350" Width="525" >
     <Grid>
         <ContentControl prism:RegionManager.RegionName="ContentRegion" />
-        <Button Content="TASK TEST" Command="{Binding TaskTestCommand}" Height="150" Width="300"/>
+        <!--<Button Content="TASK TEST" Command="{Binding TaskTestCommand}" Height="150" Width="300"/>-->
     </Grid>
 </Window>
