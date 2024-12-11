@@ -14,4 +14,7 @@
     </PackageReference>
     <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProductivityHub.Application\ProductivityHub.Application.csproj" />
+  </ItemGroup>
 </Project>

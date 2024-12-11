@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using ProductivityHub.Application.DTOs;
@@ -11,13 +12,24 @@ namespace ProductivityHub.Application.Services
     public class TaskService : ITaskService
     {
         private readonly ITaskRepository _taskRepository;
+        private readonly IFormTypeRepository _formTypeRepository;
 
-        public TaskService(ITaskRepository taskRepository)
+        public TaskService(ITaskRepository taskRepository, IFormTypeRepository formTypeRepository)
         {
             _taskRepository = taskRepository;
+            _formTypeRepository = formTypeRepository;
         }
         public async Task AddTaskAsync(TaskDto taskDto)
         {
+
+
+            FormType formType = await _formTypeRepository.GetFormTypeById(taskDto.TypeId);
+            if (formType == null)
+            {
+                formType = new FormType { Id = taskDto.TypeId, Name = taskDto.TaskTypeName };
+                 await _formTypeRepository.CreateFormType(formType);
+            }
+
             var task = new TaskEntity
             {
                 Title = taskDto.Title,
@@ -25,8 +37,10 @@ namespace ProductivityHub.Application.Services
                 DueDate = taskDto.DueDate,
                 TaskStatusId = taskDto.TaskStatusId,
                 TypeId = taskDto.TypeId,
+                TaskType = formType,
                 PlanedDate = taskDto.PlanedDate,
             };
+
             await _taskRepository.Add(task);
         }
 
