@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Prism.DryIoc;
+using Prism.Events;
 using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Mvvm;
@@ -32,7 +33,6 @@ namespace ProductivityHub.WPF
 
             containerRegistry.Register<IFormTypeRepository, FormTypeRepository>();
             containerRegistry.Register<IStatusRepository, StatusRepository>();
-
             containerRegistry.Register<AppDbContext>(c =>
             {
                 var options = new DbContextOptionsBuilder<AppDbContext>()
@@ -40,6 +40,8 @@ namespace ProductivityHub.WPF
                     .Options;
                 return new AppDbContext(options);
             });
+
+            containerRegistry.RegisterSingleton<IEventAggregator, EventAggregator>();
         }
 
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)

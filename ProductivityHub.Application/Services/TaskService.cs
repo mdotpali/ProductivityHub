@@ -2,7 +2,9 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Prism.Events;
 using ProductivityHub.Application.DTOs;
+using ProductivityHub.Application.Events;
 using ProductivityHub.Application.Interfaces;
 using ProductivityHub.Domain.Entities;
 using ProductivityHub.Domain.Interfaces;
@@ -14,12 +16,15 @@ namespace ProductivityHub.Application.Services
         private readonly ITaskRepository _taskRepository;
         private readonly IFormTypeRepository _formTypeRepository;
         private readonly IStatusRepository _statusRepository;
+        private readonly IEventAggregator _eventAggregator;
 
-        public TaskService(ITaskRepository taskRepository, IFormTypeRepository formTypeRepository, IStatusRepository statusRepository)
+        public TaskService(ITaskRepository taskRepository, IFormTypeRepository formTypeRepository, IStatusRepository statusRepository
+            , IEventAggregator eventAggregator)
         {
             _taskRepository = taskRepository;
             _formTypeRepository = formTypeRepository;
             _statusRepository = statusRepository;
+            _eventAggregator = eventAggregator;
         }
         public async Task AddTaskAsync(TaskDto taskDto)
         {
@@ -53,6 +58,7 @@ namespace ProductivityHub.Application.Services
             };
 
             await _taskRepository.Add(task);
+            _eventAggregator.GetEvent<TaskAddedEvent>().Publish(task);
         }
 
         public async Task DeleteTaskAsync(TaskEntity id)

@@ -28,25 +28,6 @@ namespace ProductivityHub.WPF.Modules.TaskModule.ViewModels
             _taskService = taskService;
         }
 
-        private DelegateCommand _taskTestCommand;
-        public DelegateCommand TaskTestCommand =>
-            _taskTestCommand ?? (_taskTestCommand = new DelegateCommand(ExecuteTaskTestCommand));
-
-        void ExecuteTaskTestCommand()
-        {
-            var taskDto = new TaskDto
-            {
-                Title = "Example Task",
-                Description = "Example Description",
-                DueDate = DateTime.Now,
-                PlanedDate = DateTime.Now,
-                TaskStatusId = 1,
-                TaskStatusName = "Started",
-                TaskTypeName = "Project Task",
-                TypeId = 1,
-                Id = new Guid()
-            };
-            _taskService.AddTaskAsync(taskDto);
-        }
+       
     }
 }
