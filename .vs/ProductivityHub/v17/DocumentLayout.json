@@ -7,6 +7,26 @@
       "RelativeMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|solutionrelative:productivityhub.wpf.modules.taskmodule\\views\\tasklistmanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|solutionrelative:productivityhub.wpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{569EC9E3-AE3B-42F1-A22C-6D2E91841023}|ProductivityHub.Application\\ProductivityHub.Application.csproj|d:\\0-git\\productivityhub\\productivityhub.application\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{569EC9E3-AE3B-42F1-A22C-6D2E91841023}|ProductivityHub.Application\\ProductivityHub.Application.csproj|solutionrelative:productivityhub.application\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\productivityhub.wpf.modules.taskmodule.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|solutionrelative:productivityhub.wpf.modules.taskmodule\\productivityhub.wpf.modules.taskmodule.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{569EC9E3-AE3B-42F1-A22C-6D2E91841023}|ProductivityHub.Application\\ProductivityHub.Application.csproj|d:\\0-git\\productivityhub\\productivityhub.application\\productivityhub.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{569EC9E3-AE3B-42F1-A22C-6D2E91841023}|ProductivityHub.Application\\ProductivityHub.Application.csproj|solutionrelative:productivityhub.application\\productivityhub.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\views\\tasklistmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|solutionrelative:productivityhub.wpf.modules.taskmodule\\views\\tasklistmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\viewmodels\\tasklistmanagerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|solutionrelative:productivityhub.wpf.modules.taskmodule\\viewmodels\\tasklistmanagerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,20 +55,12 @@
       "RelativeMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|solutionrelative:productivityhub.wpf.modules.taskmodule\\taskmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\views\\tasklistmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|solutionrelative:productivityhub.wpf.modules.taskmodule\\views\\tasklistmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\views\\viewa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|solutionrelative:productivityhub.wpf.modules.taskmodule\\views\\viewa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|solutionrelative:productivityhub.wpf\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|solutionrelative:productivityhub.wpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,45 +82,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\App.xaml.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF\\App.xaml.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\App.xaml.cs",
-              "RelativeToolTip": "ProductivityHub.WPF\\App.xaml.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAACsAAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T19:01:32.351Z",
+              "DocumentIndex": 4,
+              "Title": "ProductivityHub.Application",
+              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Application\\ProductivityHub.Application.csproj",
+              "RelativeDocumentMoniker": "ProductivityHub.Application\\ProductivityHub.Application.csproj",
+              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Application\\ProductivityHub.Application.csproj",
+              "RelativeToolTip": "ProductivityHub.Application\\ProductivityHub.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-14T19:18:30.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ViewA.xaml",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml",
-              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-11T19:17:49.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "ViewAViewModel.cs",
               "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\ViewAViewModel.cs",
               "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\ViewAViewModel.cs",
               "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\ViewAViewModel.cs",
               "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\ViewAViewModel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAHAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAABOwB4AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T19:17:00.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "ProductivityHub.WPF\\ViewModels\\MainWindowViewModel.cs",
@@ -121,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "TaskModule.cs",
               "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\TaskModule.cs",
               "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\TaskModule.cs",
@@ -134,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "ViewA.xaml.cs",
               "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml.cs",
               "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml.cs",
@@ -147,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "TaskService.cs",
               "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Application\\Services\\TaskService.cs",
               "RelativeDocumentMoniker": "ProductivityHub.Application\\Services\\TaskService.cs",
@@ -160,53 +160,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TaskListManagerViewModel.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\TaskListManagerViewModel.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\TaskListManagerViewModel.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\TaskListManagerViewModel.cs",
-              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\TaskListManagerViewModel.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAA3wCIAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T20:16:52.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TaskListManager.xaml",
               "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml",
               "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml",
-              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml",
+              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml*",
+              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-12T20:23:09.214Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TaskAddedEvent.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Application\\Events\\TaskAddedEvent.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.Application\\Events\\TaskAddedEvent.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Application\\Events\\TaskAddedEvent.cs",
-              "RelativeToolTip": "ProductivityHub.Application\\Events\\TaskAddedEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T20:59:31.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ProductivityHub.WPF\\Views\\MainWindow.xaml",
@@ -218,7 +184,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
+              "Title": "ProductivityHub.WPF.Modules.TaskModule",
+              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj",
+              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj",
+              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-14T19:18:48.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskDto.cs",
+              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Application\\DTOs\\TaskDto.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.Application\\DTOs\\TaskDto.cs",
+              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Application\\DTOs\\TaskDto.cs",
+              "RelativeToolTip": "ProductivityHub.Application\\DTOs\\TaskDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T19:18:55.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ViewA.xaml",
+              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml",
+              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml",
+              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T19:17:49.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaskListManagerViewModel.cs",
+              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\TaskListManagerViewModel.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\TaskListManagerViewModel.cs",
+              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\TaskListManagerViewModel.cs",
+              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\TaskListManagerViewModel.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwCIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T20:16:52.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TaskListManager.xaml.cs",
               "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml.cs",
               "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml.cs",
@@ -227,6 +252,32 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T20:16:33.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF\\App.xaml.cs",
+              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\App.xaml.cs",
+              "RelativeToolTip": "ProductivityHub.WPF\\App.xaml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAABOwCsAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:01:32.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TaskAddedEvent.cs",
+              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Application\\Events\\TaskAddedEvent.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.Application\\Events\\TaskAddedEvent.cs",
+              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Application\\Events\\TaskAddedEvent.cs",
+              "RelativeToolTip": "ProductivityHub.Application\\Events\\TaskAddedEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T20:59:31.519Z",
               "EditorCaption": ""
             }
           ]

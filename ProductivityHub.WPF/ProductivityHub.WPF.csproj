@@ -8,6 +8,8 @@
 	<Nullable>disable</Nullable>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Dirkster.AvalonDock" Version="4.72.1" />
+    <PackageReference Include="Dirkster.AvalonDock.Themes.VS2013" Version="4.72.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.0" />
     <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.12.2069">
       <PrivateAssets>all</PrivateAssets>
