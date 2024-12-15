@@ -18,7 +18,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityHub.WPF.Modules
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityHub.WPF.Modules.Calendar", "ProductivityHub.WPF.Modules.Calendar\ProductivityHub.WPF.Modules.Calendar.csproj", "{4C5C0481-63FC-4966-B024-3007C5A0257B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityHub.Infrastructure", "ProductivityHub.Infrastructure\ProductivityHub.Infrastructure.csproj", "{3E78B700-5E53-4A71-BA23-74663655DD92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityHub.Infrastructure", "ProductivityHub.Infrastructure\ProductivityHub.Infrastructure.csproj", "{3E78B700-5E53-4A71-BA23-74663655DD92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityHub.WPF.Core", "ProductivityHub.WPF.Core\ProductivityHub.WPF.Core.csproj", "{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +52,10 @@ Global
 		{3E78B700-5E53-4A71-BA23-74663655DD92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E78B700-5E53-4A71-BA23-74663655DD92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E78B700-5E53-4A71-BA23-74663655DD92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -42,11 +42,7 @@
                 </avalonDock:LayoutPanel>
             </avalonDock:LayoutRoot>
         </avalonDock:DockingManager>
-        
-            
-        
-        <ContentControl prism:RegionManager.RegionName="ContentRegion" />
-        
+                
         
     </Grid>
 </RibbonWindow>

@@ -1,5 +1,4 @@
-﻿using AvalonDock.Layout;
-using ProductivityHub.WPF.Core.Interfaces;
+﻿using ProductivityHub.WPF.Core.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
