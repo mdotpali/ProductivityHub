@@ -1,14 +1,17 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AvalonDock;
+using Microsoft.EntityFrameworkCore;
 using Prism.DryIoc;
 using Prism.Events;
 using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Mvvm;
+using Prism.Regions;
 using ProductivityHub.Application.Interfaces;
 using ProductivityHub.Application.Services;
 using ProductivityHub.Domain.Interfaces;
 using ProductivityHub.Infrastructure;
 using ProductivityHub.Infrastructure.Repositories;
+using ProductivityHub.WPF.Core.Adapters;
 using ProductivityHub.WPF.Modules.TaskModule;
 using ProductivityHub.WPF.ViewModels;
 using ProductivityHub.WPF.Views;
@@ -49,6 +52,12 @@ namespace ProductivityHub.WPF
             base.ConfigureModuleCatalog(moduleCatalog);
 
             moduleCatalog.AddModule<TaskModule>();
+        }
+
+        protected override void ConfigureRegionAdapterMappings(RegionAdapterMappings regionAdapterMappings)
+        {
+            base.ConfigureRegionAdapterMappings(regionAdapterMappings);
+            regionAdapterMappings.RegisterMapping<DockingManager, DockingManagerRegionAdapter>();
         }
     }
 }

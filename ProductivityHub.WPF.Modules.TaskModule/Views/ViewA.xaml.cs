@@ -12,13 +12,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ProductivityHub.WPF;
+using ProductivityHub.WPF.Core.Interfaces;
 
 namespace ProductivityHub.WPF.Modules.TaskModule.Views
 {
     /// <summary>
     /// Interaction logic for ViewA.xaml
     /// </summary>
-    public partial class ViewA : UserControl
+    public partial class ViewA : UserControl, IDocumentLayout
     {
         public ViewA()
         {

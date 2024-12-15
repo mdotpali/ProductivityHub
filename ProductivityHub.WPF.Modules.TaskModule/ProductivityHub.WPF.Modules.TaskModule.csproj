@@ -10,5 +10,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ProductivityHub.Application\ProductivityHub.Application.csproj" />
+    <ProjectReference Include="..\ProductivityHub.WPF\ProductivityHub.WPF.csproj" />
   </ItemGroup>
 </Project>

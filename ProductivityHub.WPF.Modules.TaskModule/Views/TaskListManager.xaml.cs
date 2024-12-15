@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AvalonDock.Layout;
+using ProductivityHub.WPF.Core.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,7 +20,7 @@ namespace ProductivityHub.WPF.Modules.TaskModule.Views
     /// <summary>
     /// Interaction logic for DefaultTaskView.xaml
     /// </summary>
-    public partial class TaskListManager : UserControl
+    public partial class TaskListManager : UserControl, IDocumentLayout
     {
         public TaskListManager()
         {
