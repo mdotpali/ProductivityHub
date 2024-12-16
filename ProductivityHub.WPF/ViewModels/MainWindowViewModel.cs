@@ -1,8 +1,10 @@
-﻿using Prism.Commands;
+﻿using AvalonDock.Themes;
+using Prism.Commands;
 using Prism.Mvvm;
 using ProductivityHub.Application.DTOs;
 using ProductivityHub.Application.Interfaces;
 using ProductivityHub.Domain.Entities;
+using ProductivityHub.WPF.Core.Interfaces;
 using System;
 
 namespace ProductivityHub.WPF.ViewModels
@@ -18,30 +20,43 @@ namespace ProductivityHub.WPF.ViewModels
             set { SetProperty(ref _title, value); }
         }
 
-        public MainWindowViewModel()
+        private Theme _currentAvalonTheme;
+        public Theme CurrentAvalonTheme
         {
+            get { return _currentAvalonTheme; }
+            set { SetProperty(ref _currentAvalonTheme, value); }
+        }
+        private DelegateCommand _setLightThemeCommand;
+        private readonly IThemeService _themeService;
+
+        public DelegateCommand SetLightThemeCommand =>
+            _setLightThemeCommand ?? (_setLightThemeCommand = new DelegateCommand(ExecuteSetLightThemeCommand));
+
+        void ExecuteSetLightThemeCommand()
+        {
+            _themeService.SetLightTheme();
+        }
+
+        private DelegateCommand _setDarkThemeCommand;
+        public DelegateCommand SetDarkThemeCommand =>
+            _setDarkThemeCommand ?? (_setDarkThemeCommand = new DelegateCommand(ExecuteSetDarkThemeCommand));
+
+        void ExecuteSetDarkThemeCommand()
+        {
+            _themeService.SetDarkTheme();
+        }
+
+        public MainWindowViewModel(IThemeService themService)
+        {
+            _themeService = themService;
+            _themeService.ThemeChanged += OnThemeChanged;
             //_taskService = taskService;
         }
 
-        //private DelegateCommand _taskTestCommand;
-        //public DelegateCommand TaskTestCommand =>
-        //    _taskTestCommand ?? (_taskTestCommand = new DelegateCommand(ExecuteTaskTestCommand));
+        private void OnThemeChanged()
+        {
+            CurrentAvalonTheme = _themeService.CurrentAvalonTheme;
+        }
 
-        //void ExecuteTaskTestCommand()
-        //{
-        //    var taskDto = new TaskDto
-        //    {
-        //        Title = "Example Task",
-        //        Description = "Example Description",
-        //        DueDate = DateTime.Now,
-        //        PlanedDate = DateTime.Now,
-        //        TaskStatusId = 1,
-        //        TaskStatusName = "Started",
-        //        TaskTypeName = "Project Task",
-        //        TypeId = 1,
-        //        Id = new Guid()
-        //    };
-        //    _taskService.AddTaskAsync(taskDto);
-        //}
     }
 }

@@ -23,25 +23,28 @@
                     <ribbon:RibbonButton Label="Undo" Command="{Binding UndoCommand}"/>
                     <ribbon:RibbonButton Label="Redo" Command="{Binding RedoCommand}"/>
                 </ribbon:RibbonGroup>
+                <ribbon:RibbonGroup Header="Theme">
+                    <ribbon:RibbonButton Label="Light" Command="{Binding SetLightThemeCommand}"/>
+                    <ribbon:RibbonButton Label="Dark" Command="{Binding SetDarkThemeCommand}"/>
+                </ribbon:RibbonGroup>
             </ribbon:RibbonTab>
         </ribbon:Ribbon>
 
-        <avalonDock:DockingManager Grid.Row="1" prism:RegionManager.RegionName="ContentRegion">
+        <avalonDock:DockingManager Grid.Row="1" prism:RegionManager.RegionName="ContentRegion" Theme="{Binding CurrentAvalonTheme}">
             <avalonDock:LayoutRoot>
                 <avalonDock:LayoutPanel Orientation="Horizontal">
                     <avalonDock:LayoutDocumentPaneGroup>
-                        <avalonDock:LayoutDocumentPane>
-                            <avalonDock:LayoutDocument Title="Document 1" />
+                        <avalonDock:LayoutDocumentPane prism:RegionManager.RegionName="DocumentRegion">
                         </avalonDock:LayoutDocumentPane>
                     </avalonDock:LayoutDocumentPaneGroup>
                     <avalonDock:LayoutAnchorablePaneGroup>
-                        <avalonDock:LayoutAnchorablePane>
-                            <avalonDock:LayoutAnchorable Title="Tool 1"/>
+                        <avalonDock:LayoutAnchorablePane prism:RegionManager.RegionName="ToolRegion">
                         </avalonDock:LayoutAnchorablePane>
                     </avalonDock:LayoutAnchorablePaneGroup>
                 </avalonDock:LayoutPanel>
             </avalonDock:LayoutRoot>
         </avalonDock:DockingManager>
+        
                 
         
     </Grid>

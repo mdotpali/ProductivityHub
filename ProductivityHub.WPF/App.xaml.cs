@@ -1,4 +1,5 @@
 ﻿using AvalonDock;
+using AvalonDock.Layout;
 using Microsoft.EntityFrameworkCore;
 using Prism.DryIoc;
 using Prism.Events;
@@ -12,6 +13,8 @@ using ProductivityHub.Domain.Interfaces;
 using ProductivityHub.Infrastructure;
 using ProductivityHub.Infrastructure.Repositories;
 using ProductivityHub.WPF.Core.Adapters;
+using ProductivityHub.WPF.Core.Interfaces;
+using ProductivityHub.WPF.Core.Services;
 using ProductivityHub.WPF.Modules.TaskModule;
 using ProductivityHub.WPF.ViewModels;
 using ProductivityHub.WPF.Views;
@@ -45,12 +48,12 @@ namespace ProductivityHub.WPF
             });
 
             containerRegistry.RegisterSingleton<IEventAggregator, EventAggregator>();
+            containerRegistry.RegisterSingleton<IThemeService, ThemeService>();
         }
 
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         {
             base.ConfigureModuleCatalog(moduleCatalog);
-
             moduleCatalog.AddModule<TaskModule>();
         }
 
@@ -58,6 +61,8 @@ namespace ProductivityHub.WPF
         {
             base.ConfigureRegionAdapterMappings(regionAdapterMappings);
             regionAdapterMappings.RegisterMapping<DockingManager, DockingManagerRegionAdapter>();
+            regionAdapterMappings.RegisterMapping<LayoutDocumentPane, DocumentPaneRegionAdapter>();
+            regionAdapterMappings.RegisterMapping<LayoutAnchorablePane, AnchorablePaneRegionAdapter>();
         }
     }
 }
