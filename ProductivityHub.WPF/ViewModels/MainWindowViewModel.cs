@@ -50,7 +50,6 @@ namespace ProductivityHub.WPF.ViewModels
         {
             _themeService = themService;
             _themeService.ThemeChanged += OnThemeChanged;
-            //_taskService = taskService;
         }
 
         private void OnThemeChanged()

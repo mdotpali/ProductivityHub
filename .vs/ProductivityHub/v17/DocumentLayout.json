@@ -1,101 +1,109 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\0-Git\\ProductivityHub\\",
+  "WorkspaceRootPath": "C:\\DATA\\GIT\\ProductivityHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|solutionrelative:productivityhub.wpf\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}|ProductivityHub.WPF.Core\\ProductivityHub.WPF.Core.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf.core\\services\\themeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}|ProductivityHub.WPF.Core\\ProductivityHub.WPF.Core.csproj|solutionrelative:productivityhub.wpf.core\\services\\themeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|solutionrelative:productivityhub.wpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}|ProductivityHub.WPF.Core\\ProductivityHub.WPF.Core.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf.core\\interfaces\\ithemeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|solutionrelative:productivityhub.wpf\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}|ProductivityHub.WPF.Core\\ProductivityHub.WPF.Core.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf.core\\services\\themeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}|ProductivityHub.WPF.Core\\ProductivityHub.WPF.Core.csproj|solutionrelative:productivityhub.wpf.core\\services\\themeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|solutionrelative:productivityhub.wpf\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|solutionrelative:productivityhub.wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}|ProductivityHub.WPF.Core\\ProductivityHub.WPF.Core.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf.core\\interfaces\\ithemeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}|ProductivityHub.WPF.Core\\ProductivityHub.WPF.Core.csproj|solutionrelative:productivityhub.wpf.core\\interfaces\\ithemeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf\\productivityhub.wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf\\productivityhub.wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|solutionrelative:productivityhub.wpf\\productivityhub.wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{569EC9E3-AE3B-42F1-A22C-6D2E91841023}|ProductivityHub.Application\\ProductivityHub.Application.csproj|d:\\0-git\\productivityhub\\productivityhub.application\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{569EC9E3-AE3B-42F1-A22C-6D2E91841023}|ProductivityHub.Application\\ProductivityHub.Application.csproj|c:\\data\\git\\productivityhub\\productivityhub.application\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{569EC9E3-AE3B-42F1-A22C-6D2E91841023}|ProductivityHub.Application\\ProductivityHub.Application.csproj|solutionrelative:productivityhub.application\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf\\core\\adapters\\anchorablepaneregionadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf\\core\\adapters\\anchorablepaneregionadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|solutionrelative:productivityhub.wpf\\core\\adapters\\anchorablepaneregionadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf\\core\\adapters\\documentpaneregionadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf\\core\\adapters\\documentpaneregionadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|solutionrelative:productivityhub.wpf\\core\\adapters\\documentpaneregionadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf\\core\\adapters\\dockingmanagerregionadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf\\core\\adapters\\dockingmanagerregionadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A582BC6-0B39-4CE7-88F4-BA3E3F86FBB9}|ProductivityHub.WPF\\ProductivityHub.WPF.csproj|solutionrelative:productivityhub.wpf\\core\\adapters\\dockingmanagerregionadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\taskmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\taskmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|solutionrelative:productivityhub.wpf.modules.taskmodule\\taskmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\views\\tasklistmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\views\\tasklistmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|solutionrelative:productivityhub.wpf.modules.taskmodule\\views\\tasklistmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\views\\tasklistmanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\views\\tasklistmanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|solutionrelative:productivityhub.wpf.modules.taskmodule\\views\\tasklistmanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\views\\viewa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\views\\viewa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|solutionrelative:productivityhub.wpf.modules.taskmodule\\views\\viewa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProductivityHub.WPF\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\productivityhub.wpf.modules.taskmodule.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\productivityhub.wpf.modules.taskmodule.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|solutionrelative:productivityhub.wpf.modules.taskmodule\\productivityhub.wpf.modules.taskmodule.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}|ProductivityHub.WPF.Core\\ProductivityHub.WPF.Core.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf.core\\interfaces\\idocumentlayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}|ProductivityHub.WPF.Core\\ProductivityHub.WPF.Core.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf.core\\interfaces\\idocumentlayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}|ProductivityHub.WPF.Core\\ProductivityHub.WPF.Core.csproj|solutionrelative:productivityhub.wpf.core\\interfaces\\idocumentlayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}|ProductivityHub.WPF.Core\\ProductivityHub.WPF.Core.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf.core\\interfaces\\ianchorablelayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}|ProductivityHub.WPF.Core\\ProductivityHub.WPF.Core.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf.core\\interfaces\\ianchorablelayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}|ProductivityHub.WPF.Core\\ProductivityHub.WPF.Core.csproj|solutionrelative:productivityhub.wpf.core\\interfaces\\ianchorablelayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{569EC9E3-AE3B-42F1-A22C-6D2E91841023}|ProductivityHub.Application\\ProductivityHub.Application.csproj|d:\\0-git\\productivityhub\\productivityhub.application\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{569EC9E3-AE3B-42F1-A22C-6D2E91841023}|ProductivityHub.Application\\ProductivityHub.Application.csproj|c:\\data\\git\\productivityhub\\productivityhub.application\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{569EC9E3-AE3B-42F1-A22C-6D2E91841023}|ProductivityHub.Application\\ProductivityHub.Application.csproj|solutionrelative:productivityhub.application\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{569EC9E3-AE3B-42F1-A22C-6D2E91841023}|ProductivityHub.Application\\ProductivityHub.Application.csproj|d:\\0-git\\productivityhub\\productivityhub.application\\productivityhub.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{569EC9E3-AE3B-42F1-A22C-6D2E91841023}|ProductivityHub.Application\\ProductivityHub.Application.csproj|c:\\data\\git\\productivityhub\\productivityhub.application\\productivityhub.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{569EC9E3-AE3B-42F1-A22C-6D2E91841023}|ProductivityHub.Application\\ProductivityHub.Application.csproj|solutionrelative:productivityhub.application\\productivityhub.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\viewmodels\\tasklistmanagerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\viewmodels\\tasklistmanagerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|solutionrelative:productivityhub.wpf.modules.taskmodule\\viewmodels\\tasklistmanagerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{569EC9E3-AE3B-42F1-A22C-6D2E91841023}|ProductivityHub.Application\\ProductivityHub.Application.csproj|d:\\0-git\\productivityhub\\productivityhub.application\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{569EC9E3-AE3B-42F1-A22C-6D2E91841023}|ProductivityHub.Application\\ProductivityHub.Application.csproj|c:\\data\\git\\productivityhub\\productivityhub.application\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{569EC9E3-AE3B-42F1-A22C-6D2E91841023}|ProductivityHub.Application\\ProductivityHub.Application.csproj|solutionrelative:productivityhub.application\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{569EC9E3-AE3B-42F1-A22C-6D2E91841023}|ProductivityHub.Application\\ProductivityHub.Application.csproj|d:\\0-git\\productivityhub\\productivityhub.application\\events\\taskaddedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{569EC9E3-AE3B-42F1-A22C-6D2E91841023}|ProductivityHub.Application\\ProductivityHub.Application.csproj|c:\\data\\git\\productivityhub\\productivityhub.application\\events\\taskaddedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{569EC9E3-AE3B-42F1-A22C-6D2E91841023}|ProductivityHub.Application\\ProductivityHub.Application.csproj|solutionrelative:productivityhub.application\\events\\taskaddedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\viewmodels\\viewaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\viewmodels\\viewaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|solutionrelative:productivityhub.wpf.modules.taskmodule\\viewmodels\\viewaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|d:\\0-git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\views\\viewa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|c:\\data\\git\\productivityhub\\productivityhub.wpf.modules.taskmodule\\views\\viewa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A9ED45A-BFDC-4A5D-AD61-4665658E4A5F}|ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj|solutionrelative:productivityhub.wpf.modules.taskmodule\\views\\viewa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -106,63 +114,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IThemeService.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Core\\Interfaces\\IThemeService.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF.Core\\Interfaces\\IThemeService.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Core\\Interfaces\\IThemeService.cs",
-              "RelativeToolTip": "ProductivityHub.WPF.Core\\Interfaces\\IThemeService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ProductivityHub.WPF\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T17:57:55.574Z",
+              "WhenOpened": "2024-12-17T12:12:05.409Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\Views\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ProductivityHub.WPF\\Views\\MainWindow.xaml",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\Views\\MainWindow.xaml",
-              "RelativeToolTip": "ProductivityHub.WPF\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\Views\\MainWindow.xaml*",
+              "RelativeToolTip": "ProductivityHub.WPF\\Views\\MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-16T17:41:17.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ThemeService.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Core\\Services\\ThemeService.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF.Core\\Services\\ThemeService.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Core\\Services\\ThemeService.cs",
-              "RelativeToolTip": "ProductivityHub.WPF.Core\\Services\\ThemeService.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAgwDoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T16:04:45.254Z",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\App.xaml",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF\\App.xaml",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\App.xaml",
+              "RelativeToolTip": "ProductivityHub.WPF\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-17T11:51:49.109Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\ViewModels\\MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "ProductivityHub.WPF\\ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\ViewModels\\MainWindowViewModel.cs",
               "RelativeToolTip": "ProductivityHub.WPF\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAuwDYAAAAAAAAA",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA0wAsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T19:16:44.171Z",
               "EditorCaption": ""
@@ -170,260 +173,265 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ITaskService.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Application\\Interfaces\\ITaskService.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.Application\\Interfaces\\ITaskService.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Application\\Interfaces\\ITaskService.cs",
-              "RelativeToolTip": "ProductivityHub.Application\\Interfaces\\ITaskService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "IThemeService.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Core\\Interfaces\\IThemeService.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF.Core\\Interfaces\\IThemeService.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Core\\Interfaces\\IThemeService.cs",
+              "RelativeToolTip": "ProductivityHub.WPF.Core\\Interfaces\\IThemeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T15:48:15.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T17:57:55.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AnchorablePaneRegionAdapter.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\Core\\Adapters\\AnchorablePaneRegionAdapter.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF\\Core\\Adapters\\AnchorablePaneRegionAdapter.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\Core\\Adapters\\AnchorablePaneRegionAdapter.cs",
-              "RelativeToolTip": "ProductivityHub.WPF\\Core\\Adapters\\AnchorablePaneRegionAdapter.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAgwEkAAAAJAAAA",
+              "DocumentIndex": 2,
+              "Title": "ThemeService.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Core\\Services\\ThemeService.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF.Core\\Services\\ThemeService.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Core\\Services\\ThemeService.cs",
+              "RelativeToolTip": "ProductivityHub.WPF.Core\\Services\\ThemeService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswC4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T15:41:43.09Z",
+              "WhenOpened": "2024-12-16T16:04:45.254Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "DocumentPaneRegionAdapter.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\Core\\Adapters\\DocumentPaneRegionAdapter.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF\\Core\\Adapters\\DocumentPaneRegionAdapter.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\Core\\Adapters\\DocumentPaneRegionAdapter.cs",
-              "RelativeToolTip": "ProductivityHub.WPF\\Core\\Adapters\\DocumentPaneRegionAdapter.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAADwvw4AAAAJAAAA",
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.Application\\Interfaces\\ITaskService.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.Application\\Interfaces\\ITaskService.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.Application\\Interfaces\\ITaskService.cs",
+              "RelativeToolTip": "ProductivityHub.Application\\Interfaces\\ITaskService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T15:38:40.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "App.g.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\obj\\Debug\\net8.0-windows\\App.g.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF\\obj\\Debug\\net8.0-windows\\App.g.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\obj\\Debug\\net8.0-windows\\App.g.cs",
-              "RelativeToolTip": "ProductivityHub.WPF\\obj\\Debug\\net8.0-windows\\App.g.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAIAywD8AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T16:27:12.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TaskListManager.xaml",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml",
-              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-12T20:23:09.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ViewA.xaml",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml",
-              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-11T19:17:49.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TaskModule.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\TaskModule.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\TaskModule.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\TaskModule.cs",
-              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\TaskModule.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T19:01:22.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductivityHub.WPF.csproj",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\ProductivityHub.WPF.csproj",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF\\ProductivityHub.WPF.csproj",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\ProductivityHub.WPF.csproj",
-              "RelativeToolTip": "ProductivityHub.WPF\\ProductivityHub.WPF.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-15T16:25:29.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TaskListManager.xaml.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml.cs",
-              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T20:16:33.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T15:48:15.883Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "DockingManagerRegionAdapter.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\Core\\Adapters\\DockingManagerRegionAdapter.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF\\Core\\Adapters\\DockingManagerRegionAdapter.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF\\Core\\Adapters\\DockingManagerRegionAdapter.cs",
-              "RelativeToolTip": "ProductivityHub.WPF\\Core\\Adapters\\DockingManagerRegionAdapter.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAABOwDUAAAARAAAA",
+              "Title": "AnchorablePaneRegionAdapter.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\Core\\Adapters\\AnchorablePaneRegionAdapter.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF\\Core\\Adapters\\AnchorablePaneRegionAdapter.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\Core\\Adapters\\AnchorablePaneRegionAdapter.cs",
+              "RelativeToolTip": "ProductivityHub.WPF\\Core\\Adapters\\AnchorablePaneRegionAdapter.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwEkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T16:25:06.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T15:41:43.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ProductivityHub.Application.csproj",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Application\\ProductivityHub.Application.csproj",
-              "RelativeDocumentMoniker": "ProductivityHub.Application\\ProductivityHub.Application.csproj",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Application\\ProductivityHub.Application.csproj",
-              "RelativeToolTip": "ProductivityHub.Application\\ProductivityHub.Application.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-14T19:18:30.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IAnchorableLayout.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Core\\Interfaces\\IAnchorableLayout.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF.Core\\Interfaces\\IAnchorableLayout.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Core\\Interfaces\\IAnchorableLayout.cs",
-              "RelativeToolTip": "ProductivityHub.WPF.Core\\Interfaces\\IAnchorableLayout.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "DocumentPaneRegionAdapter.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\Core\\Adapters\\DocumentPaneRegionAdapter.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF\\Core\\Adapters\\DocumentPaneRegionAdapter.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\Core\\Adapters\\DocumentPaneRegionAdapter.cs",
+              "RelativeToolTip": "ProductivityHub.WPF\\Core\\Adapters\\DocumentPaneRegionAdapter.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAADwvw4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T16:24:55.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T15:38:40.621Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "IDocumentLayout.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Core\\Interfaces\\IDocumentLayout.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF.Core\\Interfaces\\IDocumentLayout.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Core\\Interfaces\\IDocumentLayout.cs",
-              "RelativeToolTip": "ProductivityHub.WPF.Core\\Interfaces\\IDocumentLayout.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "App.g.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "RelativeToolTip": "ProductivityHub.WPF\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAIAywD8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T16:24:59.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T16:27:12.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TaskListManager.xaml",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml",
+              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T20:23:09.214Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "ProductivityHub.WPF.Modules.TaskModule.csproj",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj",
-              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA6AAAA",
+              "Title": "ViewA.xaml",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml",
+              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T19:17:49.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TaskModule.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\TaskModule.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\TaskModule.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\TaskModule.cs",
+              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\TaskModule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:01:22.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductivityHub.WPF.csproj",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\ProductivityHub.WPF.csproj",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF\\ProductivityHub.WPF.csproj",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\ProductivityHub.WPF.csproj",
+              "RelativeToolTip": "ProductivityHub.WPF\\ProductivityHub.WPF.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-14T19:18:48.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T16:25:29.156Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ViewAViewModel.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\ViewAViewModel.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\ViewAViewModel.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\ViewAViewModel.cs",
-              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\ViewAViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAABewB4AAAAHAAAA",
+              "DocumentIndex": 12,
+              "Title": "TaskListManager.xaml.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml.cs",
+              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\Views\\TaskListManager.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T19:17:00.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T20:16:33.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ViewA.xaml.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml.cs",
-              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 10,
+              "Title": "DockingManagerRegionAdapter.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\Core\\Adapters\\DockingManagerRegionAdapter.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF\\Core\\Adapters\\DockingManagerRegionAdapter.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF\\Core\\Adapters\\DockingManagerRegionAdapter.cs",
+              "RelativeToolTip": "ProductivityHub.WPF\\Core\\Adapters\\DockingManagerRegionAdapter.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAABOwDUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T19:25:35.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T16:25:06.047Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "TaskService.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Application\\Services\\TaskService.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.Application\\Services\\TaskService.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Application\\Services\\TaskService.cs",
-              "RelativeToolTip": "ProductivityHub.Application\\Services\\TaskService.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAADwvzwAAAAwAAAA",
+              "Title": "ProductivityHub.Application.csproj",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.Application\\ProductivityHub.Application.csproj",
+              "RelativeDocumentMoniker": "ProductivityHub.Application\\ProductivityHub.Application.csproj",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.Application\\ProductivityHub.Application.csproj",
+              "RelativeToolTip": "ProductivityHub.Application\\ProductivityHub.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-14T19:18:30.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAnchorableLayout.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Core\\Interfaces\\IAnchorableLayout.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF.Core\\Interfaces\\IAnchorableLayout.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Core\\Interfaces\\IAnchorableLayout.cs",
+              "RelativeToolTip": "ProductivityHub.WPF.Core\\Interfaces\\IAnchorableLayout.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T21:30:03.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T16:24:55.47Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "TaskDto.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Application\\DTOs\\TaskDto.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.Application\\DTOs\\TaskDto.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Application\\DTOs\\TaskDto.cs",
-              "RelativeToolTip": "ProductivityHub.Application\\DTOs\\TaskDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Title": "IDocumentLayout.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Core\\Interfaces\\IDocumentLayout.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF.Core\\Interfaces\\IDocumentLayout.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Core\\Interfaces\\IDocumentLayout.cs",
+              "RelativeToolTip": "ProductivityHub.WPF.Core\\Interfaces\\IDocumentLayout.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T19:18:55.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T16:24:59.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductivityHub.WPF.Modules.TaskModule.csproj",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj",
+              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\ProductivityHub.WPF.Modules.TaskModule.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-14T19:18:48.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ViewAViewModel.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\ViewAViewModel.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\ViewAViewModel.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\ViewAViewModel.cs",
+              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\ViewAViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAABewB4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:17:00.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ViewA.xaml.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml.cs",
+              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\Views\\ViewA.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:25:35.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.Application\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.Application\\Services\\TaskService.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.Application\\Services\\TaskService.cs",
+              "RelativeToolTip": "ProductivityHub.Application\\Services\\TaskService.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAADwvzwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T21:30:03.28Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "TaskListManagerViewModel.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\TaskListManagerViewModel.cs",
-              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\TaskListManagerViewModel.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\TaskListManagerViewModel.cs",
-              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\TaskListManagerViewModel.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAA9wCIAAAAVAAAA",
+              "Title": "TaskDto.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.Application\\DTOs\\TaskDto.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.Application\\DTOs\\TaskDto.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.Application\\DTOs\\TaskDto.cs",
+              "RelativeToolTip": "ProductivityHub.Application\\DTOs\\TaskDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T20:16:52.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T19:18:55.72Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "TaskListManagerViewModel.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\TaskListManagerViewModel.cs",
+              "RelativeDocumentMoniker": "ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\TaskListManagerViewModel.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\TaskListManagerViewModel.cs",
+              "RelativeToolTip": "ProductivityHub.WPF.Modules.TaskModule\\ViewModels\\TaskListManagerViewModel.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA9wCIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T20:16:52.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "TaskAddedEvent.cs",
-              "DocumentMoniker": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Application\\Events\\TaskAddedEvent.cs",
+              "DocumentMoniker": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.Application\\Events\\TaskAddedEvent.cs",
               "RelativeDocumentMoniker": "ProductivityHub.Application\\Events\\TaskAddedEvent.cs",
-              "ToolTip": "D:\\0-Git\\ProductivityHub\\ProductivityHub.Application\\Events\\TaskAddedEvent.cs",
+              "ToolTip": "C:\\DATA\\GIT\\ProductivityHub\\ProductivityHub.Application\\Events\\TaskAddedEvent.cs",
               "RelativeToolTip": "ProductivityHub.Application\\Events\\TaskAddedEvent.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T20:59:31.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T20:59:31.519Z"
             }
           ]
         }

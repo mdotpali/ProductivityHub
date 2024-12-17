@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace ProductivityHub.WPF.Core.Services
@@ -32,7 +33,7 @@ namespace ProductivityHub.WPF.Core.Services
         {
             CurrentAvalonTheme = new Vs2013DarkTheme();
             CurrentMaterialTheme = BaseTheme.Dark;
-            //ApplyMaterialTheme();
+            ApplyMaterialTheme();
             ThemeChanged?.Invoke();
         }
 
@@ -41,20 +42,13 @@ namespace ProductivityHub.WPF.Core.Services
             var palatteHelper = new PaletteHelper();
             var theme = palatteHelper.GetTheme();
             theme.SetBaseTheme(CurrentMaterialTheme);
-            if (CurrentMaterialTheme == BaseTheme.Dark)
-            {
-                theme.SetDarkTheme();
-            }
-            else if(CurrentMaterialTheme == BaseTheme.Light)
-            {
-                theme.SetLightTheme();
-            }
+            palatteHelper.SetTheme(theme);
         }
         public void SetLightTheme()
         {
             CurrentAvalonTheme = new Vs2013LightTheme();
             CurrentMaterialTheme = BaseTheme.Light;
-            //ApplyMaterialTheme();
+            ApplyMaterialTheme();
             ThemeChanged?.Invoke();
         }
     }
