@@ -19,9 +19,9 @@ namespace ProductivityHub.WPF.Modules.TaskModule.Views
     /// <summary>
     /// Interaction logic for DefaultTaskView.xaml
     /// </summary>
-    public partial class TaskListManager : UserControl, IDocumentLayout
+    public partial class TasksList : UserControl, IAnchorableLayout
     {
-        public TaskListManager()
+        public TasksList()
         {
             InitializeComponent();
         }

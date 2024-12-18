@@ -15,13 +15,13 @@ using System.Threading.Tasks;
 
 namespace ProductivityHub.WPF.Modules.TaskModule.ViewModels
 {
-    public class TaskListManagerViewModel : BindableBase, INavigationAware
+    public class TasksListViewModel : BindableBase, INavigationAware
     {
         private ITaskService _taskService;
         private readonly IEventAggregator _eventAggregator;
 
         public ObservableCollection<TaskEntity> TasksList { get; private set; }
-        public TaskListManagerViewModel(ITaskService taskSrvice, IEventAggregator eventAggregator)
+        public TasksListViewModel(ITaskService taskSrvice, IEventAggregator eventAggregator)
         {
             _taskService = taskSrvice;
             _eventAggregator = eventAggregator;
