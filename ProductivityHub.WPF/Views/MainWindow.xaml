@@ -5,7 +5,7 @@
         xmlns:avalonDock="https://github.com/Dirkster99/AvalonDock"
         xmlns:prism="http://prismlibrary.com/"
         prism:ViewModelLocator.AutoWireViewModel="True"
-        Title="{Binding Title}" Height="600" Width="800"
+        Title="{Binding Title}" Height="900" Width="1600"
         Style="{StaticResource MaterialDesignWindow}">
     <Grid>
         <Grid.RowDefinitions>
@@ -46,14 +46,14 @@
         <avalonDock:DockingManager Grid.Row="2" prism:RegionManager.RegionName="ContentRegion" Theme="{Binding CurrentAvalonTheme}">
             <avalonDock:LayoutRoot>
                 <avalonDock:LayoutPanel Orientation="Horizontal">
+                    <avalonDock:LayoutAnchorablePaneGroup>
+                        <avalonDock:LayoutAnchorablePane prism:RegionManager.RegionName="ToolRegion" DockMinWidth="400">
+                        </avalonDock:LayoutAnchorablePane>
+                    </avalonDock:LayoutAnchorablePaneGroup>
                     <avalonDock:LayoutDocumentPaneGroup>
                         <avalonDock:LayoutDocumentPane prism:RegionManager.RegionName="DocumentRegion">
                         </avalonDock:LayoutDocumentPane>
                     </avalonDock:LayoutDocumentPaneGroup>
-                    <avalonDock:LayoutAnchorablePaneGroup>
-                        <avalonDock:LayoutAnchorablePane prism:RegionManager.RegionName="ToolRegion">
-                        </avalonDock:LayoutAnchorablePane>
-                    </avalonDock:LayoutAnchorablePaneGroup>
                 </avalonDock:LayoutPanel>
             </avalonDock:LayoutRoot>
         </avalonDock:DockingManager>

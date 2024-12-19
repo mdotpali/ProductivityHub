@@ -20,7 +20,7 @@ namespace ProductivityHub.WPF.ViewModels
             set { SetProperty(ref _title, value); }
         }
 
-        private Theme _currentAvalonTheme;
+        private Theme _currentAvalonTheme ;
         public Theme CurrentAvalonTheme
         {
             get { return _currentAvalonTheme; }
@@ -50,6 +50,7 @@ namespace ProductivityHub.WPF.ViewModels
         {
             _themeService = themService;
             _themeService.ThemeChanged += OnThemeChanged;
+            _themeService.SetLightTheme();
         }
 
         private void OnThemeChanged()

@@ -35,34 +35,35 @@
                 </ItemsControl.ItemsPanel>
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <ContentControl>
+                        <Grid>
                             <Button Style="{StaticResource MaterialDesignFlatButton}" MinHeight="250"
                                 Command="{Binding DataContext.ItemClickCommand, RelativeSource={RelativeSource AncestorType=ItemsControl}}" CommandParameter="{Binding}">
                                 <materialDesign:Card Margin="10" Padding="10" Background="{DynamicResource MaterialDesignPaper}" >
-                                    <StackPanel Orientation="Vertical" Margin="20,10,20,10">
+                                    <StackPanel Orientation="Vertical" Margin="20,10,20,40">
                                         <TextBlock Text="{Binding Title}" FontWeight="Bold" FontSize="16" TextAlignment="Center" Margin="10,0,10,10" Foreground="{DynamicResource PrimaryHueDarkBrush}"/>
                                         <Separator  Margin="0,0,0,10"/>
-                                        <TextBlock  Margin="0,5,0,0" Foreground="{DynamicResource MaterialDesignBody}">
-                                Due Date: 
-                                <Run Text="{Binding DueDate, StringFormat='{}{0:MM/dd/yyyy}'}" FontWeight="Bold" Foreground="{DynamicResource PrimaryHueDarkBrush}"/>
+                                        <TextBlock  Margin="0,5,0,0">
+                                            <Run Text="Due Date: " Foreground="{DynamicResource MaterialDesignBody}"/>
+                                            <Run Text="{Binding DueDate, StringFormat='{}{0:dd/MM/yyyy}'}" FontWeight="Bold" Foreground="{DynamicResource PrimaryHueDarkBrush}"/>
                                         </TextBlock>
-                                        <TextBlock  Margin="0,5,0,0" Foreground="{DynamicResource MaterialDesignBody}">
-                                Planned Date: 
-                                <Run Text="{Binding PlanedDate, StringFormat='{}{0:dd/mm/yyyy}'}" FontWeight="Bold" Foreground="{DynamicResource PrimaryHueDarkBrush}"/>
+                                        <TextBlock  Margin="0,5,0,0">
+                                            <Run Text="Planned Date: " Foreground="{DynamicResource MaterialDesignBody}"/>
+                                            <Run Text="{Binding PlanedDate, StringFormat='{}{0:dd/MM/yyyy}'}" FontWeight="Bold" Foreground="{DynamicResource PrimaryHueDarkBrush}"/>
                                         </TextBlock>
-                                        <TextBlock  Margin="0,5,0,0" Foreground="{DynamicResource MaterialDesignBody}">
-                                Task Type: 
-                                <Run Text="{Binding TaskType.Name}" FontWeight="Bold" Foreground="{DynamicResource PrimaryHueDarkBrush}"/>
+                                        <TextBlock  Margin="0,5,0,0">
+                                            <Run Text="Task Type: "  Foreground="{DynamicResource MaterialDesignBody}"/>
+                                            <Run Text="{Binding TaskType.Name}" FontWeight="Bold" Foreground="{DynamicResource PrimaryHueDarkBrush}"/>
                                         </TextBlock>
-                                        <TextBlock Margin="0,5,0,15" Foreground="{DynamicResource MaterialDesignBody}">
-                                Task Status: 
-                                <Run Text="{Binding TaskStatus.Name}" FontWeight="Bold" Foreground="{DynamicResource PrimaryHueDarkBrush}"/>
+                                        <TextBlock Margin="0,5,0,15" >                                 
+                                            <Run Text="Task Status: "  Foreground="{DynamicResource MaterialDesignBody}"/>
+                                            <Run Text="{Binding TaskStatus.Name}" FontWeight="Bold" Foreground="{DynamicResource PrimaryHueDarkBrush}"/>
                                         </TextBlock>
-                                        <Button Content="Done" Command="{Binding DataContext.CompleteTaskCommand, RelativeSource={RelativeSource AncestorType=ListBox}}" CommandParameter="{Binding}"/>
                                     </StackPanel>
                                 </materialDesign:Card>
                             </Button>
-                        </ContentControl>
+                            <Button Content="Done" Command="{Binding DataContext.CompleteTaskCommand, RelativeSource={RelativeSource AncestorType=ListBox}}" CommandParameter="{Binding}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="40"/>
+
+                        </Grid>
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
