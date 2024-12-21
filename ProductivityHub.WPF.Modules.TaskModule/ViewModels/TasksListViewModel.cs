@@ -37,20 +37,23 @@ namespace ProductivityHub.WPF.Modules.TaskModule.ViewModels
 
         public bool IsNavigationTarget(NavigationContext navigationContext)
         {
-            return true;
+            return false;
         }
 
-        public void OnNavigatedFrom(NavigationContext navigationContext)
+        public  void OnNavigatedFrom(NavigationContext navigationContext)
         {
-            throw new NotImplementedException();
+
         }
 
         public async void OnNavigatedTo(NavigationContext navigationContext)
         {
-            var tasks = await _taskService.GetAllTasksAsync();
-            foreach (var task in tasks)
+            if (!TasksList.Any())
             {
-                TasksList.Add(task);
+                var tasks = await _taskService.GetAllTasksAsync();
+                foreach (var task in tasks)
+                {
+                    TasksList.Add(task);
+                }
             }
         }
 

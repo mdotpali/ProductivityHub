@@ -16,6 +16,7 @@ using ProductivityHub.WPF.Core.Adapters;
 using ProductivityHub.WPF.Core.Interfaces;
 using ProductivityHub.WPF.Core.Services;
 using ProductivityHub.WPF.Modules.TaskModule;
+using ProductivityHub.WPF.Modules.TaskModule.Views;
 using ProductivityHub.WPF.ViewModels;
 using ProductivityHub.WPF.Views;
 using System.Windows;
@@ -62,7 +63,7 @@ namespace ProductivityHub.WPF
             base.ConfigureRegionAdapterMappings(regionAdapterMappings);
             regionAdapterMappings.RegisterMapping<DockingManager, DockingManagerRegionAdapter>();
             regionAdapterMappings.RegisterMapping<LayoutDocumentPane, DocumentPaneRegionAdapter>();
-            regionAdapterMappings.RegisterMapping<LayoutAnchorablePane, AnchorablePaneRegionAdapter>();
+            regionAdapterMappings.RegisterMapping(typeof(LayoutAnchorablePane), Container.Resolve<AnchorablePaneRegionAdapter>());
         }
     }
 }

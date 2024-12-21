@@ -31,8 +31,6 @@
                         <MenuItem Header="Dark" Command="{Binding SetDarkThemeCommand}" FontSize="16" FontWeight="Bold"/>
                     </MenuItem>
                 </Menu>
-                <!--<Button Content="Light" Command="{Binding SetLightThemeCommand}"/>
-                <Button Content="Dark" Command="{Binding SetDarkThemeCommand}"/>-->
             </ToolBar>
         </ToolBarTray>
 

@@ -17,15 +17,18 @@ namespace ProductivityHub.WPF.Modules.TaskModule
     {
         public void OnInitialized(IContainerProvider containerProvider)
         {
-            containerProvider.Resolve<IRegionManager>().RegisterViewWithRegion("ContentRegion", typeof(TasksList));
+            containerProvider.Resolve<IRegionManager>().RegisterViewWithRegion("ToolRegion", typeof(TasksList));
         }
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
             ViewModelLocationProvider.Register<TasksList, TasksListViewModel>();
 
-            containerRegistry.Register<ITaskService, TaskService>();
-            containerRegistry.Register<ITaskRepository, TaskRepository>();
+            containerRegistry.RegisterSingleton<ITaskService, TaskService>();
+            containerRegistry.RegisterSingleton<ITaskRepository, TaskRepository>();
+
+            containerRegistry.RegisterForNavigation<TasksList>();
+
         }
     }
 }
