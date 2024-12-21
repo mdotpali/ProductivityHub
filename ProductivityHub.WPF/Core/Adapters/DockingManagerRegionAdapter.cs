@@ -58,7 +58,7 @@ namespace ProductivityHub.WPF.Core.Adapters
                 var tool = regionTarget.Layout.Descendents().OfType<LayoutAnchorable>().FirstOrDefault(d => d.Content == view);
                 if (tool != null)
                 {
-                    var parent = tool.Parent as LayoutDocumentPane;
+                    var parent = tool.Parent as LayoutAnchorablePane;
                     parent?.Children.Remove(tool);
                     tool.Close();
                 }
