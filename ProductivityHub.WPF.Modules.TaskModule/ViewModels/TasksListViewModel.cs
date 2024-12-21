@@ -6,6 +6,7 @@ using ProductivityHub.Application.DTOs;
 using ProductivityHub.Application.Events;
 using ProductivityHub.Application.Interfaces;
 using ProductivityHub.Domain.Entities;
+using ProductivityHub.WPF.Modules.TaskModule.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -17,12 +18,14 @@ namespace ProductivityHub.WPF.Modules.TaskModule.ViewModels
 {
     public class TasksListViewModel : BindableBase, INavigationAware
     {
+        private readonly IRegionManager _regionManager;
         private ITaskService _taskService;
         private readonly IEventAggregator _eventAggregator;
 
         public ObservableCollection<TaskEntity> TasksList { get; private set; }
-        public TasksListViewModel(ITaskService taskSrvice, IEventAggregator eventAggregator)
+        public TasksListViewModel(ITaskService taskSrvice, IEventAggregator eventAggregator, IRegionManager regionManager)
         {
+            _regionManager = regionManager;
             _taskService = taskSrvice;
             _eventAggregator = eventAggregator;
 
@@ -55,6 +58,15 @@ namespace ProductivityHub.WPF.Modules.TaskModule.ViewModels
                     TasksList.Add(task);
                 }
             }
+        }
+
+        private DelegateCommand _NewTaskCommand;
+        public DelegateCommand NewTaskCommand =>
+            _NewTaskCommand ?? (_NewTaskCommand = new DelegateCommand(ExecuteCommandName));
+
+        void ExecuteCommandName()
+        {
+            _regionManager.AddToRegion("ContentRegion", nameof(NewTask));
         }
 
         private DelegateCommand _taskTestCommand;

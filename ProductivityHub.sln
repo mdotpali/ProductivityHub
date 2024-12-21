@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design", "Design", "{5D14ECA5-04CC-4E51-BB05-C56BD1719522}"
 	ProjectSection(SolutionItems) = preProject
 		Design\ClassCharts.txt = Design\ClassCharts.txt
+		Design\TaskManager-Module.png = Design\TaskManager-Module.png
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityHub.Domain", "ProductivityHub.Domain\ProductivityHub.Domain.csproj", "{E5FC1F78-2F6E-4152-A081-E1E8A2C999EA}"
@@ -20,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityHub.WPF.Modules
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityHub.Infrastructure", "ProductivityHub.Infrastructure\ProductivityHub.Infrastructure.csproj", "{3E78B700-5E53-4A71-BA23-74663655DD92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityHub.WPF.Core", "ProductivityHub.WPF.Core\ProductivityHub.WPF.Core.csproj", "{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityHub.WPF.Core", "ProductivityHub.WPF.Core\ProductivityHub.WPF.Core.csproj", "{5A14A1CC-4E2A-4914-BA2B-9B11C8A2A6D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

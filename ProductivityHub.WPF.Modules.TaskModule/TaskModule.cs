@@ -23,11 +23,13 @@ namespace ProductivityHub.WPF.Modules.TaskModule
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
             ViewModelLocationProvider.Register<TasksList, TasksListViewModel>();
+            ViewModelLocationProvider.Register<NewTask, NewTaskViewModel>();
 
             containerRegistry.RegisterSingleton<ITaskService, TaskService>();
             containerRegistry.RegisterSingleton<ITaskRepository, TaskRepository>();
 
             containerRegistry.RegisterForNavigation<TasksList>();
+            containerRegistry.RegisterForNavigation<NewTask>();
 
         }
     }

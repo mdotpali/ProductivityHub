@@ -17,10 +17,10 @@
             <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="10" Margin="10" HorizontalAlignment="Center">
                 <StackPanel Orientation="Vertical">
                     <TextBlock Text="Task Management"  TextAlignment="Center" FontSize="20" Margin="10,10,10,20" FontWeight="Bold"/>
-                    <Button Content="New Task" Command="{Binding TaskTestCommand}" Margin="10,0,10,30" MaxWidth="200"/>
+                    <Button Content="New Task" Command="{Binding NewTaskCommand}" Margin="10,0,10,30" MaxWidth="200" Foreground="{DynamicResource MaterialDesignBody}"/>
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10,0,10,15">
-                        <Button Content="New Task" Command="{Binding TaskTestCommand}" Margin="0,0,5,0" />
-                        <Button Content="New Task" Command="{Binding TaskTestCommand}" Margin="5,0,0,0"/>
+                        <Button Content="Sort By" Command="{Binding TasksSortByCommand}" Margin="0,0,5,0" Foreground="{DynamicResource MaterialDesignBody}"/>
+                        <Button Content="Filter" Command="{Binding FolterTasksCommand}" Margin="5,0,0,0" Foreground="{DynamicResource MaterialDesignBody}"/>
                     </StackPanel>
                 </StackPanel>
             </Border>
