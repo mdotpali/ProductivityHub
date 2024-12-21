@@ -10,40 +10,33 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <Menu Grid.Row="0">
-            <MenuItem Header="File">
-                <MenuItem Header="Open" Command="{Binding OpenCommand}"/>
-                <MenuItem Header="Save" Command="{Binding SaveCommand}"/>
-            </MenuItem>
-            <MenuItem Header="Edit">
-                <MenuItem Header="Undo" Command="{Binding UndoCommand}"/>
-                <MenuItem Header="Redo" Command="{Binding RedoCommand}"/>
-            </MenuItem>
-            <MenuItem Header="Theme">
-                <MenuItem Header="Light" Command="{Binding SetLightThemeCommand}"/>
-                <MenuItem Header="Dark" Command="{Binding SetDarkThemeCommand}"/>
-            </MenuItem>
-        </Menu>
 
-        <ToolBarTray Grid.Row="1">
+        <ToolBarTray Grid.Row="0">
             <ToolBar>
-                <Button Content="Open" Command="{Binding OpenCommand}"/>
-                <Button Content="Save" Command="{Binding SaveCommand}"/>
+
+                <Button Content="HOME" Command="{Binding HomeCommand}" FontSize="16" FontWeight="Bold"/>
                 <Separator/>
-                <Button Content="Undo" Command="{Binding UndoCommand}"/>
-                <Button Content="Redo" Command="{Binding RedoCommand}"/>
+                <Button Content="TASKS" Command="{Binding OpenTasksCommand}" FontSize="16" FontWeight="Bold"/>
+                <Button Content="PROJECTS" Command="{Binding OpenProjectsCommand}" FontSize="16" FontWeight="Bold"/>
+                <Button Content="GOALS" Command="{Binding OpenGoalsCommand}" FontSize="16" FontWeight="Bold"/>
+                <Button Content="CALENDAR" Command="{Binding OpenCalendarCommand}" FontSize="16" FontWeight="Bold"/>
                 <Separator/>
-                <Button Content="Light" Command="{Binding SetLightThemeCommand}"/>
-                <Button Content="Dark" Command="{Binding SetDarkThemeCommand}"/>
+                <Menu>
+                    <MenuItem Header="THEME" Height="53" FontSize="16" FontWeight="Bold">
+                        <MenuItem Header="Light" Command="{Binding SetLightThemeCommand}" FontSize="16" FontWeight="Bold"/>
+                        <MenuItem Header="Dark" Command="{Binding SetDarkThemeCommand}" FontSize="16" FontWeight="Bold"/>
+                    </MenuItem>
+                </Menu>
+                <!--<Button Content="Light" Command="{Binding SetLightThemeCommand}"/>
+                <Button Content="Dark" Command="{Binding SetDarkThemeCommand}"/>-->
             </ToolBar>
         </ToolBarTray>
 
-        <avalonDock:DockingManager Grid.Row="2" prism:RegionManager.RegionName="ContentRegion" Theme="{Binding CurrentAvalonTheme}">
+        <avalonDock:DockingManager Grid.Row="1" prism:RegionManager.RegionName="ContentRegion" Theme="{Binding CurrentAvalonTheme}">
             <avalonDock:LayoutRoot>
                 <avalonDock:LayoutPanel Orientation="Horizontal">
                     <avalonDock:LayoutAnchorablePaneGroup>
@@ -58,7 +51,7 @@
             </avalonDock:LayoutRoot>
         </avalonDock:DockingManager>
 
-        <Border Grid.Row="3" BorderBrush="{DynamicResource MaterialDesignDivider}" BorderThickness="1,0,0,0" Background="{DynamicResource MaterialDesignPaper}" MinHeight="24">
+        <Border Grid.Row="2" BorderBrush="{DynamicResource MaterialDesignDivider}" BorderThickness="1,0,0,0" Background="{DynamicResource MaterialDesignPaper}" MinHeight="24">
             <TextBlock Text="This is Test StatusBar Text" VerticalAlignment="Center" Foreground="{DynamicResource MaterialDesignBody}" Padding="8,0"/>
         </Border>
 
