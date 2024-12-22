@@ -20,25 +20,25 @@
         </Grid.ColumnDefinitions>
 
         <TextBlock Text="Task Name:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center"/>
-        <TextBox Text="{Binding TaskName}" Grid.Row="0" Grid.Column="1" Margin="5"/>
+        <TextBox Text="{Binding Title}" Grid.Row="0" Grid.Column="1" Margin="5"/>
 
         <TextBlock Text="Due Date:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center"/>
-        <TextBox Text="{Binding DueDate}" Grid.Row="1" Grid.Column="1" Margin="5"/>
+        <DatePicker SelectedDate="{Binding DueDate}" Grid.Row="1" Grid.Column="1" Margin="5"/>
 
         <TextBlock Text="Planned Date:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center"/>
-        <TextBox Text="{Binding PlannedDate}" Grid.Row="2" Grid.Column="1" Margin="5"/>
+        <DatePicker SelectedDate="{Binding PlannedDate}" Grid.Row="2" Grid.Column="1" Margin="5"/>
 
         <TextBlock Text="Task Type:" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center"/>
-        <TextBox Text="{Binding TaskType}" Grid.Row="3" Grid.Column="1" Margin="5"/>
+        <TextBox Text="{Binding TaskTypeName}" Grid.Row="3" Grid.Column="1" Margin="5"/>
 
         <TextBlock Text="Task Status:" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center"/>
-        <TextBox Text="{Binding TaskStatus}" Grid.Row="4" Grid.Column="1" Margin="5"/>
+        <TextBox Text="{Binding TaskStatusName}" Grid.Row="4" Grid.Column="1" Margin="5"/>
 
         <TextBlock Text="Description:" Grid.Row="5" Grid.Column="0" VerticalAlignment="Center"/>
         <TextBox Text="{Binding Description}" Grid.Row="5" Grid.Column="1" Margin="5"/>
 
         <StackPanel Grid.Row="6" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="5">
-            <Button Content="Save" Command="{Binding SaveCommand}" Margin="5"/>
+            <Button Content="Save" Command="{Binding SaveNewTaskCommand}" Margin="5"/>
             <Button Content="Cancel" Command="{Binding CancelCommand}" Margin="5"/>
         </StackPanel>
     </Grid>

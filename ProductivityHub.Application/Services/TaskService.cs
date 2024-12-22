@@ -53,7 +53,7 @@ namespace ProductivityHub.Application.Services
                 TaskStatus = taskStatus,
                 TypeId = taskDto.TypeId,
                 TaskType = formType,
-                PlanedDate = taskDto.PlanedDate,
+                PlanedDate = taskDto.PlannedDate,
                 Id = taskDto.Id
             };
 

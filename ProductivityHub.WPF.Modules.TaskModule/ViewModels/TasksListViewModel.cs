@@ -75,19 +75,6 @@ namespace ProductivityHub.WPF.Modules.TaskModule.ViewModels
 
         void ExecuteTaskTestCommand()
         {
-            var taskDto = new TaskDto
-            {
-                Title = "Example Task",
-                Description = "Example Description",
-                DueDate = DateTime.Now,
-                PlanedDate = DateTime.Now,
-                TaskStatusId = 1,
-                TaskStatusName = "Started",
-                TaskTypeName = "Project Task",
-                TypeId = 1,
-                Id = new Guid()
-            };
-            _taskService.AddTaskAsync(taskDto);
 
         }
     }

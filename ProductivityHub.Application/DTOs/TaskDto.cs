@@ -13,7 +13,7 @@ namespace ProductivityHub.Application.DTOs
         public string Title { get; set; }
         public string Description { get; set; }
         public DateTime DueDate { get; set; }
-        public DateTime PlanedDate { get; set; }
+        public DateTime PlannedDate { get; set; }
         public string TaskTypeName { get; set; }
         public int TypeId { get; set; }
         public string TaskStatusName { get; set; }
