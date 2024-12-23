@@ -22,7 +22,7 @@ namespace ProductivityHub.WPF.Modules.TaskModule.ViewModels
         private ITaskService _taskService;
         private readonly IEventAggregator _eventAggregator;
 
-        public ObservableCollection<TaskEntity> TasksList { get; private set; }
+        public ObservableCollection<TaskViewModel> TasksList { get; private set; }
         public TasksListViewModel(ITaskService taskSrvice, IEventAggregator eventAggregator, IRegionManager regionManager)
         {
             _regionManager = regionManager;
@@ -30,12 +30,71 @@ namespace ProductivityHub.WPF.Modules.TaskModule.ViewModels
             _eventAggregator = eventAggregator;
 
             _eventAggregator.GetEvent<TaskAddedEvent>().Subscribe(OnTaskAdded);
-            TasksList = new ObservableCollection<TaskEntity>();
+            _eventAggregator.GetEvent<TaskUpdatedEvent>().Subscribe(OnTaskUpdated);
+
+            TasksList = new ObservableCollection<TaskViewModel>();
         }
 
-        private void OnTaskAdded(TaskEntity entity)
+        private void OnTaskUpdated(TaskEntity taskEntity)
         {
-            TasksList.Add(entity);
+
+            var taskViewModel = TasksList.FirstOrDefault(t => t.Id == taskEntity.Id);
+            if (taskViewModel != null)
+            {
+                // Update properties of the existing TaskDto
+                taskViewModel.Title = taskEntity.Title;
+                taskViewModel.DueDate = taskEntity.DueDate;
+                taskViewModel.PlannedDate = taskEntity.PlannedDate;
+                taskViewModel.TaskTypeName = taskEntity.TaskType.Name;
+                taskViewModel.TypeId = taskEntity.TaskType.Id;
+                taskViewModel.TaskStatusName = taskEntity.TaskStatus.Name;
+                taskViewModel.TaskStatusId = taskEntity.TaskStatus.Id;
+                taskViewModel.Description = taskEntity.Description;                
+            }
+        }
+
+        private DelegateCommand<TaskViewModel> _itemClickCommand;
+        public DelegateCommand<TaskViewModel> ItemClickCommand =>
+            _itemClickCommand ?? (_itemClickCommand = new DelegateCommand<TaskViewModel>(ExecuteItemClickCommand));
+
+        void ExecuteItemClickCommand(TaskViewModel task)
+        {
+            var taskDto = new TaskDto
+            {
+                // Map properties from TaskEntity to TaskDto
+                Id = task.Id,
+                Title = task.Title,
+                DueDate = task.DueDate,
+                PlannedDate = task.PlannedDate,
+                TaskTypeName = task.TaskTypeName,
+                TaskStatusName = task.TaskStatusName,
+                Description = task.Description,
+                TypeId = task.TypeId,
+                TaskStatusId = task.TaskStatusId
+            };
+            var parameters = new NavigationParameters()
+            {
+                { "selectedTask", taskDto }
+            };
+            _regionManager.RequestNavigate("ContentRegion", nameof(SelectedTask), parameters);
+        }
+        private void OnTaskAdded(TaskEntity task)
+        {
+            var taskDto = new TaskDto
+            {
+                // Map properties from TaskEntity to TaskDto
+                Id = task.Id,
+                Title = task.Title,
+                DueDate = task.DueDate,
+                PlannedDate = task.PlannedDate,
+                TaskTypeName = task.TaskType.Name,
+                TypeId = task.TaskType.Id,
+                TaskStatusName = task.TaskStatus.Name,
+                TaskStatusId = task.TaskStatus.Id,
+                Description = task.Description
+            };
+            var taskViewModel = new TaskViewModel(taskDto);
+            TasksList.Add(taskViewModel);
         }
 
         public bool IsNavigationTarget(NavigationContext navigationContext)
@@ -55,27 +114,34 @@ namespace ProductivityHub.WPF.Modules.TaskModule.ViewModels
                 var tasks = await _taskService.GetAllTasksAsync();
                 foreach (var task in tasks)
                 {
-                    TasksList.Add(task);
+                    var taskDto = new TaskDto
+                    {
+                        // Map properties from TaskEntity to TaskDto
+                        Id = task.Id,
+                        Title = task.Title,
+                        DueDate = task.DueDate,
+                        PlannedDate = task.PlannedDate,
+                        TaskTypeName = task.TaskType.Name,
+                        TypeId = task.TaskType.Id,
+                        TaskStatusName= task.TaskStatus.Name,
+                        TaskStatusId = task.TaskStatus.Id,
+                        Description = task.Description
+                    };
+                    var taskViewModel = new TaskViewModel(taskDto);
+                    TasksList.Add(taskViewModel);
                 }
             }
         }
 
-        private DelegateCommand _NewTaskCommand;
+        private DelegateCommand _newTaskCommand;
         public DelegateCommand NewTaskCommand =>
-            _NewTaskCommand ?? (_NewTaskCommand = new DelegateCommand(ExecuteCommandName));
+            _newTaskCommand ?? (_newTaskCommand = new DelegateCommand(ExecuteNewTaskCommand));
 
-        void ExecuteCommandName()
+        void ExecuteNewTaskCommand()
         {
-            _regionManager.AddToRegion("ContentRegion", nameof(NewTask));
+            _regionManager.RequestNavigate("ContentRegion", nameof(NewTask));
         }
 
-        private DelegateCommand _taskTestCommand;
-        public DelegateCommand TaskTestCommand =>
-            _taskTestCommand ?? (_taskTestCommand = new DelegateCommand(ExecuteTaskTestCommand));
 
-        void ExecuteTaskTestCommand()
-        {
-
-        }
     }
 }

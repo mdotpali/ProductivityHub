@@ -10,7 +10,7 @@ namespace ProductivityHub.Application.Interfaces
         public Task<List<TaskEntity>> GetAllTasksAsync();
         Task<TaskEntity> GetTaskByIdAsync(Guid id);
         public Task AddTaskAsync(TaskDto task);
-        Task UpdateTaskAsync(TaskEntity task);
+        Task UpdateTaskAsync(TaskDto task);
         Task DeleteTaskAsync(TaskEntity task);
     }
 }

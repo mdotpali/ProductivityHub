@@ -30,6 +30,7 @@ namespace ProductivityHub.WPF.Modules.TaskModule
 
             containerRegistry.RegisterForNavigation<TasksList>();
             containerRegistry.RegisterForNavigation<NewTask>();
+            containerRegistry.RegisterForNavigation<SelectedTask>();
 
         }
     }

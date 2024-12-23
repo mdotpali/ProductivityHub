@@ -48,15 +48,15 @@
                                         </TextBlock>
                                         <TextBlock  Margin="0,5,0,0">
                                             <Run Text="Planned Date: " Foreground="{DynamicResource MaterialDesignBody}"/>
-                                            <Run Text="{Binding PlanedDate, StringFormat='{}{0:dd/MM/yyyy}'}" FontWeight="Bold" Foreground="{DynamicResource PrimaryHueDarkBrush}"/>
+                                            <Run Text="{Binding PlannedDate, StringFormat='{}{0:dd/MM/yyyy}'}" FontWeight="Bold" Foreground="{DynamicResource PrimaryHueDarkBrush}"/>
                                         </TextBlock>
                                         <TextBlock  Margin="0,5,0,0">
                                             <Run Text="Task Type: "  Foreground="{DynamicResource MaterialDesignBody}"/>
-                                            <Run Text="{Binding TaskType.Name}" FontWeight="Bold" Foreground="{DynamicResource PrimaryHueDarkBrush}"/>
+                                            <Run Text="{Binding TaskTypeName}" FontWeight="Bold" Foreground="{DynamicResource PrimaryHueDarkBrush}"/>
                                         </TextBlock>
                                         <TextBlock Margin="0,5,0,15" >                                 
                                             <Run Text="Task Status: "  Foreground="{DynamicResource MaterialDesignBody}"/>
-                                            <Run Text="{Binding TaskStatus.Name}" FontWeight="Bold" Foreground="{DynamicResource PrimaryHueDarkBrush}"/>
+                                            <Run Text="{Binding TaskStatusName}" FontWeight="Bold" Foreground="{DynamicResource PrimaryHueDarkBrush}"/>
                                         </TextBlock>
                                     </StackPanel>
                                 </materialDesign:Card>

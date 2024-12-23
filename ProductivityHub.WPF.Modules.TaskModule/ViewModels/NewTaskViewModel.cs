@@ -27,9 +27,9 @@ namespace ProductivityHub.WPF.Modules.TaskModule.ViewModels
             _taskService = taskService;
         }
 
-        private DelegateCommand _SaveNewTaskCommand;
+        private DelegateCommand _saveNewTaskCommand;
         public DelegateCommand SaveNewTaskCommand =>
-            _SaveNewTaskCommand ?? (_SaveNewTaskCommand = new DelegateCommand(ExecuteSaveNewTaskCommand));
+            _saveNewTaskCommand ?? (_saveNewTaskCommand = new DelegateCommand(ExecuteSaveNewTaskCommand));
 
         void ExecuteSaveNewTaskCommand()
         {

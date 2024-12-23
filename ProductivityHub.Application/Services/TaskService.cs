@@ -44,7 +44,7 @@ namespace ProductivityHub.Application.Services
                 await _statusRepository.AddStatus(taskStatus);
             }
 
-             var task = new TaskEntity
+            var task = new TaskEntity
             {
                 Title = taskDto.Title,
                 Description = taskDto.Description,
@@ -53,7 +53,7 @@ namespace ProductivityHub.Application.Services
                 TaskStatus = taskStatus,
                 TypeId = taskDto.TypeId,
                 TaskType = formType,
-                PlanedDate = taskDto.PlannedDate,
+                PlannedDate = taskDto.PlannedDate,
                 Id = taskDto.Id
             };
 
@@ -78,12 +78,37 @@ namespace ProductivityHub.Application.Services
 
         public async Task<TaskEntity> GetTaskByIdAsync(Guid id)
         {
-           return await _taskRepository.GetById(id);
+            return await _taskRepository.GetById(id);
         }
 
-        public async Task UpdateTaskAsync(TaskEntity task)
+        public async Task UpdateTaskAsync(TaskDto taskDto)
         {
-            await _taskRepository.Update(task);
+            try
+            {
+
+
+                TaskEntity task = await _taskRepository.GetById(taskDto.Id);
+                if (task is not null)
+                {
+                    task.Title = taskDto.Title;
+                    task.DueDate = taskDto.DueDate;
+                    task.PlannedDate = taskDto.PlannedDate;
+                    task.TaskType.Name = taskDto.TaskTypeName;
+                    task.TaskType.Id = taskDto.TypeId;
+                    task.TaskStatus.Name = taskDto.TaskStatusName;
+                    task.TaskStatus.Id = taskDto.TaskStatusId;
+                    task.Description = taskDto.Description;
+
+                    await _taskRepository.Update(task);
+                }
+                _eventAggregator.GetEvent<TaskUpdatedEvent>().Publish(task);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception
+                Console.WriteLine($"Exception occurred: {ex.Message}");
+                throw;
+            }
         }
     }
 }
