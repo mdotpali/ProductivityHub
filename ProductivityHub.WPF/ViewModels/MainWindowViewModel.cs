@@ -63,7 +63,7 @@ namespace ProductivityHub.WPF.ViewModels
             _regionManager = regionManager;
             _themeService = themService;
             _themeService.ThemeChanged += OnThemeChanged;
-            _themeService.SetLightTheme();
+            _themeService.SetDarkTheme();
         }
 
         private void OnThemeChanged()
