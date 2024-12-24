@@ -24,6 +24,9 @@ namespace ProductivityHub.WPF.Modules.TaskModule.Views
         public TasksList()
         {
             InitializeComponent();
+            ToolName = "Tasks List";
         }
+
+        public string ToolName { get ; set; }
     }
 }

@@ -82,7 +82,15 @@ namespace ProductivityHub.WPF.Modules.TaskModule.ViewModels
                 PlannedDate = task.PlannedDate;
                 TaskTypeName = task.TaskTypeName;
                 TaskStatusName = task.TaskStatusName;
+                DocumentName = task.Title; // Set the DocumentName property based on the selected task's title
             }
+        }
+
+        private string _documentName;
+        public string DocumentName
+        {
+            get { return _documentName; }
+            set { SetProperty(ref _documentName, value); }
         }
 
         private DelegateCommand _saveUpdatedTaskCommand;

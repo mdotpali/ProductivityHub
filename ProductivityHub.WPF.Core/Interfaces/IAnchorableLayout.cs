@@ -8,5 +8,6 @@ namespace ProductivityHub.WPF.Core.Interfaces
 {
     public interface IAnchorableLayout
     {
+        public string ToolName { get; set; }
     }
 }

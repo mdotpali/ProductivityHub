@@ -8,5 +8,6 @@ namespace ProductivityHub.WPF.Core.Interfaces
 {
     public interface IDocumentLayout
     {
+        public string DocumentName { get; set; }
     }
 }

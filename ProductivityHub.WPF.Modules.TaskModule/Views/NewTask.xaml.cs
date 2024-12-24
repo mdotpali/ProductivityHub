@@ -11,6 +11,9 @@ namespace ProductivityHub.WPF.Modules.TaskModule.Views
         public NewTask()
         {
             InitializeComponent();
+            DocumentName = "New Task";
         }
+
+        public string DocumentName { get ; set; }
     }
 }
