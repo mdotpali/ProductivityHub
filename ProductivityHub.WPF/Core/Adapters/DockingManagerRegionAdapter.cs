@@ -13,7 +13,7 @@ using System.Windows;
 using System.Windows.Data;
 using System.Xml.Linq;
 
-namespace ProductivityHub.WPF.Core.Adapters
+namespace ProductivityHub.WPF.Adapters
 {
     /// <summary>
     /// Adapter for integrating AvalonDock's DockingManager with Prism regions.
@@ -72,7 +72,6 @@ namespace ProductivityHub.WPF.Core.Adapters
                 {
                     var parent = document.Parent as LayoutDocumentPane;
                     parent?.Children.Remove(document);
-                    document.Close();
                 }
             }
             else if (view is IAnchorableLayout)
@@ -82,7 +81,6 @@ namespace ProductivityHub.WPF.Core.Adapters
                 {
                     var parent = tool.Parent as LayoutAnchorablePane;
                     parent?.Children.Remove(tool);
-                    tool.Close();
                 }
             }
         }

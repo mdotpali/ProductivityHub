@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProductivityHub.Application.Events
+namespace ProductivityHub.Application.Events.TaskEvents
 {
-    public class TaskAddedEvent : PubSubEvent<TaskEntity>
+    public class TaskDeletedEvent: PubSubEvent<Guid>
     {
     }
 }

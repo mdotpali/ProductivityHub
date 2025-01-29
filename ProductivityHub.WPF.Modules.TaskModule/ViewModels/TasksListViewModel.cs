@@ -3,7 +3,7 @@ using Prism.Events;
 using Prism.Mvvm;
 using Prism.Regions;
 using ProductivityHub.Application.DTOs;
-using ProductivityHub.Application.Events;
+using ProductivityHub.Application.Events.TaskEvents;
 using ProductivityHub.Application.Interfaces;
 using ProductivityHub.Domain.Entities;
 using ProductivityHub.WPF.Modules.TaskModule.Views;
@@ -31,6 +31,7 @@ namespace ProductivityHub.WPF.Modules.TaskModule.ViewModels
 
             _eventAggregator.GetEvent<TaskAddedEvent>().Subscribe(OnTaskAdded);
             _eventAggregator.GetEvent<TaskUpdatedEvent>().Subscribe(OnTaskUpdated);
+            _eventAggregator.GetEvent<TaskDeletedEvent>().Subscribe(OnTaskDeleted);
 
             TasksList = new ObservableCollection<TaskViewModel>();
         }
@@ -51,6 +52,12 @@ namespace ProductivityHub.WPF.Modules.TaskModule.ViewModels
                 taskViewModel.TaskStatusId = taskEntity.TaskStatus.Id;
                 taskViewModel.Description = taskEntity.Description;                
             }
+        }
+        private void OnTaskDeleted(Guid taskId)
+        {
+
+            var taskViewModel = TasksList.FirstOrDefault(t => t.Id == taskId);
+            TasksList.Remove(taskViewModel);
         }
 
         private DelegateCommand<TaskViewModel> _itemClickCommand;

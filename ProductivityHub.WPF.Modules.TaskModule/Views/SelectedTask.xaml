@@ -38,7 +38,8 @@
 
         <StackPanel Grid.Row="6" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="5">
             <Button Content="Save" Command="{Binding SaveUpdatedTaskCommand}" Margin="5"/>
-            <Button Content="Cancel" Command="{Binding CancelCommand}" Margin="5"/>
+            <Button Content="Cancel" Command="{Binding DeleteTask}" Margin="5"/>
+            <Button Content="Delete" Command="{Binding DeleteTask}" Margin="5"/>
         </StackPanel>
     </Grid>
 </UserControl>

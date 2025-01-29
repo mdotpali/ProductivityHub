@@ -22,6 +22,5 @@
     <ProjectReference Include="..\ProductivityHub.Application\ProductivityHub.Application.csproj" />
     <ProjectReference Include="..\ProductivityHub.WPF.Modules.Calendar\ProductivityHub.WPF.Modules.Calendar.csproj" />
     <ProjectReference Include="..\ProductivityHub.WPF.Modules.TaskModule\ProductivityHub.WPF.Modules.TaskModule.csproj" />
-    <ProjectReference Include="..\ProductivityHub.WPF.Core\ProductivityHub.WPF.Core.csproj" />
   </ItemGroup>
 </Project>

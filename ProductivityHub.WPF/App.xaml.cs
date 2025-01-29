@@ -12,7 +12,7 @@ using ProductivityHub.Application.Services;
 using ProductivityHub.Domain.Interfaces;
 using ProductivityHub.Infrastructure;
 using ProductivityHub.Infrastructure.Repositories;
-using ProductivityHub.WPF.Core.Adapters;
+using ProductivityHub.WPF.Adapters;
 using ProductivityHub.WPF.Core.Interfaces;
 using ProductivityHub.WPF.Core.Services;
 using ProductivityHub.WPF.Modules.TaskModule;

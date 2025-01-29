@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Prism.Events;
 using ProductivityHub.Application.DTOs;
-using ProductivityHub.Application.Events;
+using ProductivityHub.Application.Events.TaskEvents;
 using ProductivityHub.Application.Interfaces;
 using ProductivityHub.Domain.Entities;
 using ProductivityHub.Domain.Interfaces;
@@ -61,9 +61,23 @@ namespace ProductivityHub.Application.Services
             _eventAggregator.GetEvent<TaskAddedEvent>().Publish(task);
         }
 
-        public async Task DeleteTaskAsync(TaskEntity id)
+        public async Task DeleteTaskAsync(Guid taskId)
         {
-            await _taskRepository.Delete(id.Id);
+            try
+            {
+                TaskEntity task = await _taskRepository.GetById(taskId);
+                if (task is not null)
+                {
+                    await _taskRepository.Delete(taskId);
+                    _eventAggregator.GetEvent<TaskDeletedEvent>().Publish(taskId);
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the exception
+                Console.WriteLine($"Exception occurred: {ex.Message}");
+                throw;
+            }
         }
 
         public async Task<List<TaskEntity>> GetAllTasksAsync()
@@ -79,6 +93,8 @@ namespace ProductivityHub.Application.Services
         public async Task<TaskEntity> GetTaskByIdAsync(Guid id)
         {
             return await _taskRepository.GetById(id);
+            
+
         }
 
         public async Task UpdateTaskAsync(TaskDto taskDto)

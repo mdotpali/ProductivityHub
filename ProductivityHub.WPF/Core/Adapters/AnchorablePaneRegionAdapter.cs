@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Data;
 
-namespace ProductivityHub.WPF.Core.Adapters
+namespace ProductivityHub.WPF.Adapters
 {
     /// <summary>
     /// Adapter for integrating AvalonDock's LayoutAnchorablePane with Prism regions.

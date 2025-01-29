@@ -7,17 +7,20 @@ using ProductivityHub.Application.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Windows;
 
 namespace ProductivityHub.WPF.Modules.TaskModule.ViewModels
 {
     public class SelectedTaskViewModel : BindableBase, INavigationAware
     {
         private readonly ITaskService _taskService;
+        private readonly IRegionManager _regionManager;
         private TaskDto _originalTask;
 
-        public SelectedTaskViewModel(ITaskService taskService)
+        public SelectedTaskViewModel(ITaskService taskService, IRegionManager regionManager)
         {
             _taskService = taskService;
+            _regionManager = regionManager;
         }
 
         private string _title;
@@ -107,6 +110,22 @@ namespace ProductivityHub.WPF.Modules.TaskModule.ViewModels
             _originalTask.TaskStatusName = TaskStatusName;
 
             _taskService.UpdateTaskAsync(_originalTask);
+        }
+
+        private DelegateCommand _deleteTask;
+        public DelegateCommand DeleteTask =>
+            _deleteTask ?? (_deleteTask = new DelegateCommand(ExecuteDeleteTask));
+
+        void ExecuteDeleteTask()
+        {
+            _taskService.DeleteTaskAsync(_originalTask.Id);
+
+            // Remove the view from the region
+            var view = _regionManager.Regions["ContentRegion"].ActiveViews.FirstOrDefault(v => ((FrameworkElement)v).DataContext == this);
+            if (view != null)
+            {
+                _regionManager.Regions["ContentRegion"].Remove(view);
+            }
         }
     }
 }
